@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+ body{
+     background-color: #FFFFFF;
+
+ }
+
+
+ header{
+     position:absolute;
+     width: 100%;
+     min-height: 8vh;
+     background-color: #B2BEB5;
+     padding: 0 120px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+ }
+
+ .logo{
+     color: #FF0000;
+     font-size: 2rem;
+     font-family: Agency FB;
+     font-weight: 700;
+ }
+
+ header ul{
+     position: relative;
+ }
+
+ header ul li{
+     list-style-type: none;
+     position: relative;
+     float:left;
+
+ }
+ 
+ header ul li a{
+    color: #ff0000bd;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem 1rem;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+header ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: #ff0000d3;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition:all  0.5s ;
+    
+}
+
+header ul li a:hover::after{
+    width: 100%;
+    
+}
+
+
+ header ul li ul{
+     position: absolute;
+     left: 0;
+     width: 13vw;
+     background-color: #FFFFFF;
+     display: none;
+     z-index: 1;
+ }
+
+
+ header ul li:hover > ul{
+    transition: all 0.5s ease-in 0s;
+    display: block;
+
+
+}
+
+
+header ul li ul li{
+    position: relative;
+    width: 100%;
+    border: 1px solid #B2BEB5;
+}
+
+header ul li ul li a{
+    padding: 0.5rem 0.5rem ;
+}
+
+header ul li ul li ul{
+    top: 0px;
+    left: 13vw;
+}
+
+
+/* This is where the styling for the Main begins */
+main{
+     position: relative;
+     top: 8vh;
+}
+
+
+.herosection{
+    height: 70vh;
+    background-color: #FFFFFF;
+    
+}
+
+
+#welcome{
+    min-height: 70vh;
+    background-color: #FFFFFF;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.welcomeSectionOne{
+    grid-column: span 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.welcomeSectionOne h2{
+    color: #ff0000;
+    font-family: Candara light ;
+    font-size: 2em;
+    text-shadow: 1px 1px  10px #ff000096;
+    
+}
+
+
+.welcomeSectionOne hr{
+    height: 5px ;
+    width: 25%;
+    background-color: #B2BEB5;
+    border: 0px;
+    
+}
+
+.welcomeImage{
+    border: 1px solid #B2BEB5;
+    min-height: 45vh;
+    width: 50%;
+}
+
+.welcomePosition{
+    min-height: 10vh;
+    width: 50%;
+    background-color:  #FF0000;
+    border-bottom: 7px solid #B2BEB5;
+    
+}
+
+.welcomePosition p {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center ;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+.welcomeSectionTwo{
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.welcomeSectionTwo p{
+    font-family: Candara light;
+    font-size: 1.2em;
+    text-align: center;
+    word-spacing: 3px;
+    padding: 3rem;
+}
+
+
+
+
+
+
+
+
+/* This is the stling for the footer */
+
+footer{
+    min-height: 20vh;
+    background-color: #B2BEB5;
+}
+ 
+
+
+
+
+@media(max-width: 900px){
+
+
+    header{
+        padding: 10px 20px ;
+    }
+
+    header nav{
+        position: absolute;
+        width: 100%;
+        top: 8vh;
+        left: 0;
+        
+    }
+
+
+    header nav ul li{
+        width: 100%;
+        border: 1px solid #B2BEB5;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    header nav ul li ul{
+        position: relative;
+        width: 100%;
+        left: 0 ;
+    }
+
+    header ul li ul li  {
+        background-color: #b2beb53a;
+        border-bottom:1px solid #FFFFFF ;
+    }
+
+    header ul li ul li ul {
+        top: 0;
+        left: 0;
+        background-color: #B2BEB5;
+       
+    }
+
+    header ul li ul li ul li{
+        background-color: #ffffff;
+    }
+
+    main{
+        top:100vh;
+        border: 1px solid green;
+    }  
+
+}
+
+
+
