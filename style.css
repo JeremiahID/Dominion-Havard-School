@@ -136,7 +136,6 @@ main{
 
 .welcomeSectionOne{
     grid-column: span 1;
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -200,12 +199,6 @@ main{
 }
 
 
-
-
-
-
-
-
 /* This is the stling for the footer */
 
 footer{
@@ -264,10 +257,17 @@ footer{
     }
 
     main{
-        top:100vh;
+        top:50vh;
         border: 1px solid green;
     }  
 
+    
+#welcome{
+    min-height: 120vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
 }
 
 
