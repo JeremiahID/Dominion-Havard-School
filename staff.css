@@ -37,7 +37,7 @@ body{
     width: 50%;
     background-color: #303030d0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -51,7 +51,7 @@ body{
 
 .containerContent form{
     height: 70%;
-    border: 1px solid  #FFFFFF;
+    /* border: 1px solid  #FFFFFF; */
     width: 85%;
     display: flex;
     justify-content: space-evenly;
@@ -67,7 +67,7 @@ form label{
 
 input{
     width: 20vw;
-    height: 5vh;
+    height: 7vh;
     background-color:inherit;
     border: 0px;
     color: #FFFFFF;
@@ -84,3 +84,29 @@ input:focus{
     padding: 0.5rem;
 }
 
+button{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 0px;
+    color: #FFFFFF;
+    background-color: #b10e0e;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+button:hover{
+    background-color: #ac1919;
+}
+
+.containerContent P{
+    color: #FFF;
+    font-family: Candara light;
+}
+
+.containerContent p a{
+    text-decoration: none;
+    color:#790202 ;
+    background-color: #FFFFFF;
+    padding-left: 0.3rem;
+}
