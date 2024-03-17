@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Slab:wght@100..900&display=swap');
 
 
 *{
@@ -19,7 +20,7 @@
      position:absolute;
      width: 100%;
      min-height: 8vh;
-     background-color: #B2BEB5;
+     background-color: #303030d0;
      padding: 0 120px;
      display: flex;
      justify-content: space-between;
@@ -28,7 +29,7 @@
  }
 
  .logo{
-     color: #FF0000;
+     color: #FFFFFF;
      font-size: 2rem;
      font-family: Agency FB;
      font-weight: 700;
@@ -46,7 +47,7 @@
  }
  
  header ul li a{
-    color: #ff0000bd;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: 400;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -62,7 +63,7 @@ header ul li a::after{
     content: '';
     width: 0%;
     height: 3px;
-    background-color: #ff0000d3;
+    background-color:#b10e0e;
     position: absolute;
     left: 0;
     bottom: 0px;
@@ -84,6 +85,10 @@ header ul li a:hover::after{
      display: none;
      z-index: 1;
  }
+
+ header ul li ul li a{
+    color: #b10e0e;
+}
 
 
  header ul li:hover > ul{
@@ -118,11 +123,16 @@ header ul li ul li ul{
 
 
 .herosection{
-    height: 70vh;
+    height:70vh;
     position: relative;
     top: 8vh;
+    margin-bottom: 5rem;
     background-color: #FFFFFF;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: gabriola;
     
 }
 
@@ -130,8 +140,8 @@ header ul li ul li ul{
 #welcome{
     position: relative;
     height: 70vh;
+    /* border: 1px solid red; */
     background-color: #FFFFFF;
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -147,10 +157,10 @@ header ul li ul li ul{
 }
 
 .welcomeSectionOne h2{
-    color: #ff0000;
+    color: #b10e0e;
     font-family: Candara light ;
     font-size: 2em;
-    text-shadow: 1px 1px  10px #ff000096;
+    text-shadow: 1px 1px  5px black;
     
 }
 
@@ -172,16 +182,16 @@ header ul li ul li ul{
 .welcomePosition{
     min-height: 10vh;
     width: 50%;
-    background-color:  #FF0000;
+    background-color:  #b10e0e;
     border-bottom: 7px solid #B2BEB5;
     
 }
 
 .welcomePosition p {
     color: #FFFFFF;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center ;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Candara light ;
 }
 
 
@@ -197,6 +207,8 @@ header ul li ul li ul{
 .welcomeSectionTwo p{
     font-family: Candara light;
     font-size: 1.2em;
+    font-weight: 600;
+    color: #292828;
     text-align: center;
     word-spacing: 3px;
     padding: 3rem;
@@ -215,7 +227,6 @@ footer{
 }
 
 .footerSectionOne{
-    border: 1px solid black;
     width: 100%;
     height:70vh;
     display: flex;
@@ -227,7 +238,6 @@ footer{
 .aboutUs, .popularLinks, .contactUs{
     height: 55vh;
     width: 30%;
-    border: 1px solid white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -237,7 +247,6 @@ footer{
 .aboutUsHead, .popularLinksHead, .contactUsHead{
     height: 15vh;
     width: 90%;
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -247,11 +256,12 @@ footer{
 
 :where(.aboutUsHead, .popularLinksHead, .contactUsHead) :is(h2){
     color: #FFFFFF;
-    font-family: Candara light;
+    font-family:Candara light;
+    
 }
 
 :where(.aboutUsHead, .popularLinksHead, .contactUsHead) :is(hr){
-    width: 25%;
+    width: 20%;
     height: 3px;
     background-color: #b10e0e;
     border: 0px;
@@ -260,16 +270,60 @@ footer{
 .aboutUsContent, .popularLinksContent, .contactUsContent{
     height: 35vh;
     width: 90%;
-    border: 1px solid red;
+}
+
+.aboutUsContent p{
+    color: white;
+    font-family:Candara light ;
+    word-spacing: 3px;
+    font-weight: 800;
+}
+
+.popularLinksContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: column;
+    background-color: white;
 }
 
 
+.popularLinksContent a{
+    text-decoration: none;
+    color:  #b10e0e;
+    font-family: Candara light;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.popularLinksContent a:hover{
+   text-shadow: 1px 1px 3px  black;
+  
+}
 
 
 .footerSectionTwo{
-    border: 1px solid black;
     width: 100%;
     height:10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerSectionTwo hr{
+    width: 90%;
+    height: 2px;
+    background-color: #FFFFFF;
+    border: 0px;
+}
+
+.copyright p{
+    width: 75%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Candara light;
 }
  
 
@@ -292,13 +346,24 @@ footer{
         
     }
 
+    header ul li a::after{
+        background-color:#ffffff;   
+    }
 
     header nav ul li{
         width: 100%;
         border: 1px solid #B2BEB5;
-        display: flex;
-        justify-content: center;
+        /* display: flex;
+        justify-content: center; */
         z-index: 1;
+        background-color: #292828;
+
+    }
+
+    header nav ul li a{
+        color: #FFFFFF;
+        font-weight: 600;
+        font-family: Candara light;
 
     }
 
@@ -309,7 +374,7 @@ footer{
     }
 
     header ul li ul li  {
-        background-color: #b2beb53a;
+        background-color: #ffffffc0;
         border-bottom:1px solid #FFFFFF ;
     }
 
@@ -347,7 +412,6 @@ footer{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        border: 1px solid;
     }
 
     footer{
@@ -369,6 +433,20 @@ footer{
         width: 80%;
         border: 1px solid white;
  
+    }
+
+    .aboutUsHead, .popularLinksHead, .contactUsHead{
+        height: 8vh;
+    
+
+    
+    }
+    .aboutUsContent, .popularLinksContent, .contactUsContent{
+        height: 25vh;
+
+    }
+    .copyright p{
+        width: 100%;
     }
 
 
