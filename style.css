@@ -35,6 +35,13 @@
      font-weight: 700;
  }
 
+ header svg{
+    width: 5vw;
+    height: 3vh;
+    color: white;
+    display: none;
+ }
+
  header ul{
      position: relative;
  }
@@ -168,7 +175,7 @@ header ul li ul li ul{
 .welcomeSectionOne hr{
     height: 5px ;
     width: 25%;
-    background-color: #B2BEB5;
+    background-color:#303030d0;
     border: 0px;
     
 }
@@ -183,7 +190,7 @@ header ul li ul li ul{
     min-height: 10vh;
     width: 50%;
     background-color:  #b10e0e;
-    border-bottom: 7px solid #B2BEB5;
+    border-bottom: 7px solid #303030d0;
     
 }
 
@@ -386,7 +393,22 @@ footer{
     }
 
     header ul li ul li ul li{
-        background-color: #ffffff;
+        background-color: #292828;
+    }
+
+    header ul li ul li ul li a{
+        color: #FFFFFF;
+    }
+
+
+    #open{
+        display: block;
+        height: 5vh;
+    }
+
+    #close{
+        display: none;
+        height: 5vh;
     }
 
     /* .herosection{
