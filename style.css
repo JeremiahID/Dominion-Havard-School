@@ -400,6 +400,12 @@ footer{
         color: #FFFFFF;
     }
 
+    header ul li:hover > ul{
+        display: none;
+    
+    
+    }
+
 
     #open{
         display: block;
@@ -470,6 +476,10 @@ footer{
     .copyright p{
         width: 100%;
     }
+
+    /* #admissionLinks{
+        display: none;
+    } */
 
 
 }
