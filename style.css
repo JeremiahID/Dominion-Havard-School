@@ -17,15 +17,16 @@
 
 
  header{
-     position:absolute;
+     position:sticky;
+     top: 0;
+     z-index: 1;
      width: 100%;
      min-height: 8vh;
-     background-color: #303030d0;
+     background-color: #303030;
      padding: 0 120px;
      display: flex;
      justify-content: space-between;
      align-items: center;
-     margin-bottom: 20px;
  }
 
  .logo{
@@ -133,8 +134,7 @@ header ul li ul li ul{
 
 .herosection{
     height:70vh;
-    position: relative;
-    top: 8vh;
+    /* position: relative; */
     margin-bottom: 5rem;
     background-color: #FFFFFF;
     border: 1px solid black;
@@ -147,9 +147,9 @@ header ul li ul li ul{
 
 
 #welcome{
-    position: relative;
+    /* position: relative; */
     height: 70vh;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -355,7 +355,8 @@ header ul li ul li ul{
 
 footer{
     min-height: 80vh;
-    background-color: #303030d0;
+    background-color:  #303030;
+    /* background-color: #303030d0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -475,6 +476,7 @@ footer{
 
     header{
         padding: 5px 20px ;
+        position: static;
     }
 
     header nav{
@@ -557,6 +559,7 @@ footer{
     height: 130vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    margin: 1rem;
 
     }
 
@@ -566,10 +569,12 @@ footer{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+       
     }
 
     #gallery{
         height: 170vh;
+        margin: 1rem;
     }
 
     .galleryPhotos{
