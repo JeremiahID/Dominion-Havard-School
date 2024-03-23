@@ -58,6 +58,6 @@ SchoolPortal.addEventListener('click', ()=>{
         AcademicsLinks.style.display = "none";
     } else {
         SchoolPortalLinks.style.display = "none";
-        AcademicsLinks.style.display = "block";
+        AcademicsLinks.style.display = "none";
     }
 });

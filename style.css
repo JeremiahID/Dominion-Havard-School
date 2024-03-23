@@ -224,6 +224,133 @@ header ul li ul li ul{
 }
 
 
+#gallery{
+    position: relative;
+    height: 70vh; 
+    margin-top: 5vh; 
+    border: 1px solid red;
+
+}
+
+#gallery h2{
+    text-align: center;
+    height: 10vh;
+    font-family: candara Light;
+    font-size: 2rem;
+    text-shadow: 1px 1px 7px ;
+    padding: 1rem ;
+}
+
+.galleryPhotos{
+    position: relative;
+    height: 60vh; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.photoOne, .photoTwo, .photoThree {
+    grid-column: span 1;
+    grid-row: span 1;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10vh;
+}
+
+.photoOneImage, .photoTwoImage, .photoThreeImage {
+    grid-column: span 1;
+    grid-row: span 1;
+    border: 1px solid green;
+}
+
+.photoOneContent, .photoTwoContent, .photoThreeContent {
+    grid-column: span 1;
+    grid-row: span 1;
+    border: 1px solid rgb(0, 19, 128);
+}
+
+
+#ptaCorner{
+    position: relative;
+    height: 70vh;
+    margin-top: 5vh;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+
+.ptaContent{
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ptaContent h2{
+    color: #b10e0e;
+    font-family: Candara light ;
+    font-size: 2em;
+    text-shadow: 1px 1px  5px rgba(0, 0, 0, 0.849);
+    
+}
+
+
+.ptaContent hr{
+    height: 5px ;
+    width: 25%;
+    background-color:#303030d0;
+    border: 0px;
+    
+}
+
+.ptaImage{
+    border: 1px solid #B2BEB5;
+    min-height: 45vh;
+    width: 80%;
+}
+
+.ptaImageWriteUp{
+    min-height: 7vh;
+    width: 60%;
+    background-color:  #b10e0e;
+    border-bottom: 7px solid #303030d0;
+    
+}
+
+.ptaImageWriteUp p {
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: center ;
+    font-family: Candara light ;
+}
+
+
+.ptaSpeech{
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.ptaSpeech p{
+    font-family: Candara light;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #292828;
+    text-align: center;
+    word-spacing: 3px;
+    padding: 3rem;
+}
+
+
+
 /* This is the stling for the footer */
 
 footer{
@@ -383,6 +510,7 @@ footer{
     header nav ul li ul{
         position: relative;
         width: 100%;
+        top: 0;
         left: 0 ;
     }
 
@@ -396,6 +524,7 @@ footer{
         left: 0;
         background-color: #B2BEB5;
         display: none;
+        width: 100%;
        
     }
 
@@ -423,30 +552,30 @@ footer{
         display: none;
         height: 5vh;
     }
-
-    /* .herosection{
-        height: 30vh;
-        position: relative;
-        top: 30vh;
-        background-color: goldenrod;
-        border: 1px solid black;
-        
-    } */
-
     
-    #welcome{
+    #welcome, #ptaCorner{
     height: 130vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 
     }
 
-    .welcomeSectionOne{
+    .welcomeSectionOne, .ptaContent{
         grid-column: span 1;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    #gallery{
+        height: 170vh;
+    }
+
+    .galleryPhotos{
+        height: 160vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     footer{
@@ -490,11 +619,15 @@ footer{
         width: 100%;
     }
 
-    /* #admissionLinks{
-        display: none;
-    } */
+}
 
 
+@media  (max-width: 425px){
+
+    .welcomeSectionTwo p, .ptaSpeech p{
+        font-size: 0.9em;
+
+    }
 }
 
 
