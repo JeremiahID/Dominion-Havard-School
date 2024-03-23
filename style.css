@@ -87,7 +87,8 @@ header ul li a:hover::after{
  header ul li ul{
      position: absolute;
      left: 0;
-     width: 13vw;
+     top: 7.7vh;
+     width: 12.5vw;
      background-color: #FFFFFF;
      display: none;
      z-index: 1;
@@ -117,8 +118,9 @@ header ul li ul li a{
 }
 
 header ul li ul li ul{
-    top: 0px;
-    left: 13vw;
+    top:0vh;
+    left: 12.4vw;
+    width: 80%;
 }
 
 
@@ -290,16 +292,20 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    align-self: baseline;
     flex-direction: column;
     background-color: white;
+    width: 50%;
 }
 
 
 .popularLinksContent a{
     text-decoration: none;
     color:  #b10e0e;
-    font-family: Candara light;
+    width: 100%;
+    /* text-align: center; */
     padding-left: 1rem;
+    font-family: Candara light;
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -341,7 +347,7 @@ footer{
 
 
     header{
-        padding: 10px 20px ;
+        padding: 5px 20px ;
     }
 
     header nav{
@@ -415,7 +421,7 @@ footer{
 
     #close{
         display: none;
-        height: 7vh;
+        height: 5vh;
     }
 
     /* .herosection{
@@ -474,6 +480,12 @@ footer{
         height: 25vh;
 
     }
+
+    .popularLinksContent{
+       margin-left: 1.5rem;
+    }
+
+
     .copyright p{
         width: 100%;
     }
