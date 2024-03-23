@@ -110,3 +110,48 @@ button:hover{
     background-color: #FFFFFF;
     padding-left: 0.5rem;
 }
+
+
+@media (max-width :900px) {
+    
+    .containerLogo{
+        display: none;
+    }
+    .containerContent{
+        width: 100%;
+
+    }
+
+    input{
+        width: 30vw;
+    }
+
+    button{
+        width: 30vw;
+        height: 7vh;    
+    }
+}
+
+@media (max-width: 475px ) {
+
+    .wrapper{
+        height: 70vh;
+        width: 90%;
+    }
+    .containerContent{
+        width: 100%;
+
+    }
+
+    input{
+        width:55vw;
+    }
+
+    button{
+        width: 50vw;
+        height: 7vh;  
+    
+    }
+}
+
+

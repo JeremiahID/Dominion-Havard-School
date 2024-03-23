@@ -51,12 +51,13 @@ Academics.addEventListener('click', () =>{
 });
 
 
-
 SchoolPortal.addEventListener('click', ()=>{
     console.log("working");
     if(SchoolPortalLinks.style.display === "none" ){
         SchoolPortalLinks.style.display = "block";
+        AcademicsLinks.style.display = "none";
     } else {
         SchoolPortalLinks.style.display = "none";
+        AcademicsLinks.style.display = "block";
     }
 });
