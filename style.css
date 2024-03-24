@@ -185,12 +185,12 @@ header ul li ul li ul{
 .welcomeImage{
     border: 1px solid #B2BEB5;
     min-height: 45vh;
-    width: 50%;
+    width: 60%;
 }
 
 .welcomePosition{
     min-height: 10vh;
-    width: 50%;
+    width: 55%;
     background-color:  #b10e0e;
     border-bottom: 7px solid #303030d0;
     
@@ -232,13 +232,27 @@ header ul li ul li ul{
 
 }
 
-#gallery h2{
-    text-align: center;
+.galleryHeader{
     height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galleryHeader h2{
+    text-align: center;
     font-family: candara Light;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-shadow: 1px 1px 7px ;
-    padding: 1rem ;
+    padding-bottom: 0.5rem;
+}
+
+.galleryHeader hr{
+    width: 10%;
+    background-color: #b10e0e;
+    height: 3px;
+    border: 0px;
 }
 
 .galleryPhotos{
@@ -270,6 +284,8 @@ header ul li ul li ul{
     border: 1px solid rgb(0, 19, 128);
 }
 
+
+/*  This section is where the styling for the PTA's coner start */
 
 #ptaCorner{
     position: relative;
@@ -468,7 +484,7 @@ footer{
 }
  
 
-
+/*  This section is where the styling for the tablet start */
 
 
 @media(max-width: 900px){
@@ -574,7 +590,18 @@ footer{
 
     #gallery{
         height: 170vh;
-        margin: 1rem;
+        margin: 1rem; 
+
+    }
+
+    .galleryHeader H2{
+        font-size: 2rem;
+ 
+     }
+
+    .galleryHeader hr{
+        width: 20%;
+
     }
 
     .galleryPhotos{
@@ -633,6 +660,13 @@ footer{
         font-size: 0.9em;
 
     }
+
+
+    .galleryHeader hr{
+        width: 35%;
+
+    }
+
 }
 
 
