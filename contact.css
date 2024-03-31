@@ -121,7 +121,7 @@ main{
 }
 
 
-
+/* Styling for tablet view port */
 
 @media (max-width :900px) {
 
@@ -162,6 +162,8 @@ main{
     }
  
 }
+
+/* Styling for mobile view port */
 
 @media (max-width: 475px) {
 
