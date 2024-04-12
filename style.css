@@ -23,7 +23,7 @@
      width: 100%;
      min-height: 8vh;
      background-color: #303030;
-     padding: 0 120px;
+     padding: 0 70px;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -31,9 +31,32 @@
 
  .logo{
      color: #FFFFFF;
-     font-size: 2rem;
-     font-family: Agency FB;
+     font-family:Georgia, 'Times New Roman', Times, serif ;
      font-weight: 700;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 26%;
+
+ }
+
+ .motto h2{
+    font-size: 2rem;
+ }
+
+ .motto h4{
+    text-align: center;
+ }
+
+ .motto p{
+    font-size: .7rem;
+    font-style: italic;
+ }
+
+ .logo img{
+    width: 6.5rem;
+    height: 6rem;
+    margin: .5rem 0rem;
  }
 
  header svg{
@@ -59,7 +82,7 @@
     text-decoration: none;
     font-weight: 400;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 1rem 1rem;
+    padding: 2.8rem 1rem;
     font-size: 1.1em;
     display: flex;
     justify-content: space-between;
@@ -88,7 +111,7 @@ header ul li a:hover::after{
  header ul li ul{
      position: absolute;
      left: 0;
-     top: 7.7vh;
+     top: 16vh;
      width: 12.5vw;
      background-color: #FFFFFF;
      display: none;
@@ -121,7 +144,7 @@ header ul li ul li a{
 header ul li ul li ul{
     top:0vh;
     left: 12.4vw;
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -192,7 +215,7 @@ header ul li ul li ul{
     min-height: 10vh;
     width: 55%;
     background-color:  #b10e0e;
-    border-bottom: 7px solid #303030d0;
+    border-bottom: 10px solid #303030d0;
     
 }
 
@@ -200,6 +223,7 @@ header ul li ul li ul{
     color: #FFFFFF;
     font-weight: 600;
     text-align: center ;
+    padding: .2rem 0rem;
     font-family: Candara light ;
 }
 
@@ -244,7 +268,7 @@ header ul li ul li ul{
     text-align: center;
     font-family: candara Light;
     font-size: 2.5rem;
-    text-shadow: 1px 1px 7px ;
+    text-shadow: 1px 1px 9px ;
     padding-bottom: 0.5rem;
 }
 
@@ -261,6 +285,7 @@ header ul li ul li ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    gap: 1em;
 }
 
 .photoOne, .photoTwo, .photoThree {
@@ -276,6 +301,11 @@ header ul li ul li ul{
     grid-column: span 1;
     grid-row: span 1;
     border: 1px solid green;
+}
+
+.imageLayout{
+    width: 100%;
+    height: 100%;
 }
 
 .photoOneContent, .photoTwoContent, .photoThreeContent {
@@ -488,7 +518,9 @@ footer{
 
 
 @media(max-width: 900px){
-
+    .logo{
+        width: fit-content;
+    }
 
     header{
         padding: 5px 20px ;
@@ -499,7 +531,7 @@ footer{
         display: none;
         position: absolute;
         width: 100%;
-        top: 8vh;
+        top: 17vh;
         left: 0;
         
     }
@@ -521,6 +553,7 @@ footer{
     header nav ul li a{
         color: #FFFFFF;
         font-weight: 600;
+        padding: 1rem 1rem;
         font-family: Candara light;
 
     }
@@ -594,7 +627,7 @@ footer{
 
     }
 
-    .galleryHeader H2{
+    .galleryHeader h2{
         font-size: 2rem;
  
      }
