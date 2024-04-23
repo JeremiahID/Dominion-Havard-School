@@ -497,6 +497,7 @@ footer{
     color: #b10e0e;
     width: 3vw;
     height: 3vh;
+
 }
 
 
@@ -667,10 +668,15 @@ footer{
         align-items: center;
     }
 
+    .footerSvg{
+        min-width: 4vw;
+        max-height: 4vh;
+    }
+
     .aboutUs, .popularLinks, .contactUs{
         height: 40vh;
         width: 80%;
-        border: 1px solid white;
+    
  
     }
 
@@ -686,7 +692,7 @@ footer{
     }
 
     .popularLinksContent{
-       margin-left: 1.5rem;
+       
     }
 
 
