@@ -21,15 +21,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #b10e0e;
-    border-radius: 5px;
+    border: 2px solid green;
+    border-radius: 15px;
     box-shadow: -1px 3px 10px 1px black;
 }
 
 .containerLogo{
     height: 99.9%;
     width: 50%;
-    background-color: white;
+    background-image:url('../Images/logo.png'), linear-gradient(to bottom, rgba(255, 255, 255, 0.815), rgba(13, 13, 14, 0.384));
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .containerContent{
@@ -40,6 +45,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .containerContent svg{
@@ -109,6 +116,7 @@ button:hover{
     color:rgb(8, 185, 8) ;
     background-color: #FFFFFF;
     padding: 0 0.5rem;
+    font-weight: bold;
 }
 
 
@@ -119,6 +127,7 @@ button:hover{
     }
     .containerContent{
         width: 100%;
+        border-radius: 15px;
 
     }
 

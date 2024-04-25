@@ -37,7 +37,7 @@ main{
 
 /* styling for the IT Support and it content */
 .itSupport {
-    background-image:linear-gradient(to bottom, rgba(13, 13, 14, 0.815), rgba(13, 13, 14, 0.815)),url('Images/ItSupport.jpeg');
+    background-image:linear-gradient(to bottom, rgba(13, 13, 14, 0.815), rgba(13, 13, 14, 0.815)),url('../Images/ItSupport.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }

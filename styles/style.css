@@ -109,7 +109,7 @@ header ul li a:hover::after{
 }
 
 
- header ul li ul{
+header ul li ul{
      position: absolute;
      left: 0;
      top: 14.5vh;
@@ -117,10 +117,12 @@ header ul li a:hover::after{
      background-color: #FFFFFF;
      display: none;
      z-index: 1;
- }
+}
+
 
  header ul li ul li a{
     color: #b10e0e;
+
 }
 
 
@@ -143,9 +145,10 @@ header ul li ul li a{
 }
 
 header ul li ul li ul{
-    top:0vh;
-    left: 9.95vw;
-    width: 50%;
+    top:0;
+    left: -10vw;
+    width: 100%;
+    
 }
 
 
@@ -498,21 +501,22 @@ footer{
     color: #b10e0e;
     width: 3vw;
     height: 3vh;
-
 }
 
   /* Footer Contact Details */
 
 .footerContactContent{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    
 }
+
 
 .footerContactContentText{
     color: #b10e0e;
-    font-family: calibri;
-    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: Candara light;
+    font-weight: 600;
+    width: 70%;
   
 }
 
