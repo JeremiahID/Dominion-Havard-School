@@ -349,8 +349,8 @@ main{
     grid-column: span 1;
     margin: 1rem;
     background-color: #fff;
-    border-bottom: 10px solid #b10e0e;
-    box-shadow: 1px 1px 3px 0px black;
+    /* border-bottom: 10px solid #303030; */
+    box-shadow: 3px 1px 4px 1px black;
 
 }
 
