@@ -333,15 +333,24 @@ main{
 /* Events */
 
 .Events{
-    min-height: 70vh;
+    min-height: 80vh;
     background-color: #b10e0e;
     margin: 2rem 0rem;
+    flex-direction: column;
+}
+
+.eventHeader{
+    font-family: candara Light;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 9px #303030;  
+    padding-bottom: 1.5rem;
+    color: #fff;
 }
 
 .eventWrapper{
-    width: 95%;
-    min-height: 60vh;
-    background-color: #ffffff;
+    width: 98%;
+    min-height: 65vh;
+    background-color: #fff;
 }
 
 .eventspan{
@@ -349,8 +358,8 @@ main{
     grid-column: span 1;
     margin: 1rem;
     background-color: #fff;
-    /* border-bottom: 10px solid #303030; */
-    box-shadow: 3px 1px 4px 1px black;
+    border-bottom: 10px solid #b10e0e;
+    box-shadow: 3px 1px 4px 1px #797979;
 
 }
 
