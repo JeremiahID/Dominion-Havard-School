@@ -333,7 +333,7 @@ main{
 /* Events */
 
 .Events{
-    min-height: 80vh;
+    min-height: 60vh;
     background-color: #b10e0e;
     margin: 2rem 0rem;
     flex-direction: column;
@@ -342,14 +342,14 @@ main{
 .eventHeader{
     font-family: candara Light;
     font-size: 2.5rem;
-    text-shadow: 1px 1px 9px #303030;  
+    text-shadow: 3px 3px 9px #214e03;  
     padding-bottom: 1.5rem;
     color: #fff;
 }
 
 .eventWrapper{
     width: 98%;
-    min-height: 65vh;
+    min-height: 45vh;
     background-color: #fff;
 }
 
@@ -365,6 +365,36 @@ main{
 
 .eventspan:hover{
     box-shadow: 2px 2px 9px 0px black;
+}
+
+.eventDate{
+    height: 80%;
+    background-color: #303030;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.eventSvg{
+    width: 5vw;
+    height: 5vh;
+    background-color: #fff;
+    
+}
+
+
+
+.spelling-bee{
+
+}
+
+
+.old-school{
+
+}
+
+.graduation{
+
 }
 
 
