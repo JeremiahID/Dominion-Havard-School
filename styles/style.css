@@ -334,7 +334,7 @@ main{
 
 .Events{
     min-height: 70vh;
-    background-color: red;
+    background-color: #b10e0e;
     margin: 2rem 0rem;
 }
 
@@ -349,8 +349,13 @@ main{
     grid-column: span 1;
     margin: 1rem;
     background-color: #fff;
-    border: 1px solid black;
-    box-shadow: 1px 1px 5px 1px black;
+    border-bottom: 10px solid #b10e0e;
+    box-shadow: 1px 1px 3px 0px black;
+
+}
+
+.eventspan:hover{
+    box-shadow: 2px 2px 9px 0px black;
 }
 
 
