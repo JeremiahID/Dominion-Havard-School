@@ -153,9 +153,9 @@ header ul li ul li ul{
 
 
 /*Main Styling */
-main{
+/* main{
     width:100%;
-}
+} */
 
 .flex{
     display: flex;
@@ -264,8 +264,8 @@ main{
 
 
 .gallery{
-    position: relative;
-    height: 70vh; 
+    /* position: relative; */
+    min-height: 70vh; 
     margin-top: 5vh; 
     border: 1px solid red;
 
@@ -295,7 +295,6 @@ main{
 }
 
 .galleryPhotos{
-    position: relative;
     height: 60vh; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -333,6 +332,7 @@ main{
 /* Events */
 
 .Events{
+    /* position: relative; */
     min-height: 60vh;
     background-color: #b10e0e;
     margin: 2rem 0rem;
@@ -384,18 +384,7 @@ main{
 
 
 
-.spelling-bee{
 
-}
-
-
-.old-school{
-
-}
-
-.graduation{
-
-}
 
 
 /*  PTA's coner  */
@@ -823,8 +812,7 @@ footer{
        
     }
 
-    #gallery{
-        height: 170vh;
+    .gallery{
         margin: 1rem; 
 
     }
@@ -840,10 +828,30 @@ footer{
     }
 
     .galleryPhotos{
-        height: 160vh;
+        height: 290vh;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
+
+
+    /* Events */
+
+    .Events{
+        height: 120vh;
+    }
+
+    .grid-col-3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+
+    .eventWrapper{
+        min-height: 90vh;
+
+    }
+
+
 
     footer{
         min-height: 140vh;
