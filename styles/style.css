@@ -318,7 +318,17 @@ main{
 }
 
 
-/*  This section is where the styling for the PTA's coner start */
+/* Events */
+
+.Events{
+    min-height: 70vh;
+    background-color: red;
+    margin: 2rem 0rem;
+}
+
+
+
+/*  PTA's coner  */
 
 #ptaCorner{
     position: relative;
