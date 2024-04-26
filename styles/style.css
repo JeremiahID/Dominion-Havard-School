@@ -157,6 +157,18 @@ main{
     width:100%;
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1em;
+}
 
 .herosection{
     height:70vh;
@@ -251,7 +263,7 @@ main{
 }
 
 
-#gallery{
+.gallery{
     position: relative;
     height: 70vh; 
     margin-top: 5vh; 
@@ -326,6 +338,11 @@ main{
     margin: 2rem 0rem;
 }
 
+.eventWrapper{
+    width: 90%;
+    min-height: 60vh;
+    background-color: #ffffff;
+}
 
 
 /*  PTA's coner  */
