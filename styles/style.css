@@ -339,9 +339,18 @@ main{
 }
 
 .eventWrapper{
-    width: 90%;
+    width: 95%;
     min-height: 60vh;
     background-color: #ffffff;
+}
+
+.eventspan{
+    grid-row: span 1;
+    grid-column: span 1;
+    margin: 1rem;
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px black;
 }
 
 
