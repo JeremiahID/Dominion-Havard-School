@@ -385,9 +385,7 @@ header ul li ul li ul{
 
 
 
-
-
-/*  PTA's coner  */
+                                    /*  PTA's coner  */
 
 #ptaCorner{
     position: relative;
@@ -469,7 +467,7 @@ header ul li ul li ul{
 
 
 
-/* This is the stling for the footer */
+                                                    /*  FOOTER */
 
 footer{
     min-height: 80vh;
@@ -617,7 +615,7 @@ footer{
 
 
 
-/* The About Page Styling */
+            /* About Page Styling */
 
 .aboutMain{
     width: 100%;
@@ -687,6 +685,7 @@ footer{
     text-align: center;
 }
 
+
 .visionContent{
     padding: 3rem;
     font-size: 1.2rem;
@@ -722,7 +721,7 @@ footer{
         display: none;
         position: absolute;
         width: 100%;
-        top: 23.5vh;
+        top: 18vh;
         left: 0;
         
     }
@@ -890,17 +889,64 @@ footer{
 
     }
 
-    .popularLinksContent{
-       
-    }
-
-
     .copyright p{
         width: 100%;
     }
 
+    /* About */
+    .aboutPageHr{
+        width: 15vw;
+
+    }
+
+    .visionContent{
+        width: 80%;
+    }
+
+    .visionHr{
+        width: 10vw;
+
+    }
+
+ 
+
+
+
 }
 
+
+@media  (max-width: 500px){
+        .footerContent{
+            width: 70%;
+        }
+
+        .visionContent{
+            width: 100%;
+            padding: .5rem;
+            font-size: 1rem;
+            
+        }
+
+        .visionMisionContent{
+            height: 70vh;
+            
+        }
+
+        .visionHr{
+            width: 14vw;
+    
+        }
+
+        .aboutPageHr{
+            margin-left: 2rem;
+        }
+
+        .aboutPageText{
+            font-size: 2rem;
+
+        }
+
+}
 
 @media  (max-width: 425px){
 
@@ -913,6 +959,15 @@ footer{
     .galleryHeader hr{
         width: 35%;
 
+    }
+
+    .footerContactContentText{
+        font-size: 1rem;
+        /* width: fit-content; */
+    }
+
+    .footerContent{
+        width: 70%;
     }
 
 }
