@@ -184,7 +184,7 @@ header ul li ul li ul{
 }
 
 
-#welcome{
+.welcome{
     /* position: relative; */
     height: 70vh;
     border: 1px solid red;
