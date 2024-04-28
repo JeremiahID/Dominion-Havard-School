@@ -801,7 +801,7 @@ footer{
         height: 5vh;
     }
     
-    #welcome, #ptaCorner{
+    .welcome, #ptaCorner{
     height: 130vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
