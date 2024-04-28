@@ -378,7 +378,7 @@ header ul li ul li ul{
 
 .eventName{
     height: 20%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bolder;
 }
 
@@ -951,6 +951,12 @@ footer{
         .aboutPageText{
             font-size: 2rem;
 
+        }
+
+        /* EVENTS */
+        .eventName{
+            font-size: 1.2rem;
+            text-align: center;
         }
 
 }
