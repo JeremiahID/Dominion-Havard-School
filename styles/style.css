@@ -371,14 +371,21 @@ header ul li ul li ul{
     height: 80%;
     background-color: #303030;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: flex-start;
     
+}
+
+.eventName{
+    height: 20%;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 .eventSvg{
     width: 5vw;
     height: 5vh;
-    background-color: #fff;
+    color: white;
     
 }
 
