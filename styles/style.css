@@ -719,7 +719,7 @@ footer{
         display: none;
         position: absolute;
         width: 100%;
-        top: 18vh;
+        top: 10vh;
         left: 0;
         
     }
@@ -734,7 +734,8 @@ footer{
         /* display: flex;
         justify-content: center; */
         z-index: 1;
-        background-color: #292828;
+        background-color: #1a1919;
+        backdrop-filter: blur(4px) !important;
 
     }
 
@@ -768,7 +769,7 @@ footer{
     }
 
     header ul li ul li ul li{
-        background-color: #292828;
+        background-color: #1a1919;
     }
 
     header ul li ul li ul li a{
