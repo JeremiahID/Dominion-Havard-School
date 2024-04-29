@@ -878,6 +878,14 @@ footer{
         max-height: 4vh;
     }
 
+    .footerContactContentText{
+        font-size: 1rem;
+        width: fit-content;
+        padding: 0rem .5rem;
+   
+      
+    }
+
     .aboutUs, .popularLinks, .contactUs{
         height: 40vh;
         width: 80%;
