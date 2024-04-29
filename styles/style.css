@@ -1,44 +1,41 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 *{
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Candara Light;
 }
 
 
  body{
      background-color: #FFFFFF;
-
+     font-family: "Raleway", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
  }
 
+ .carousel .carousel-item {
+    max-height: 100vh !important;
+ }
 
  header{
-     position:sticky;
-     top: 0;
-     z-index: 1;
+     position:fixed;
      width: 100%;
-     min-height: 8vh;
-     background-color: #303030;
+     top: 0;
+     background-color: #1a1919ad;
+     backdrop-filter: blur(4px) !important;
      padding: 0 70px;
      display: flex;
      justify-content: space-between;
      align-items: center;
+     height: 4.3em;
+     z-index: 1000;
  }
-
  .logo{
      color: #FFFFFF;
-     font-family:Georgia, 'Times New Roman', Times, serif ;
-     font-weight: 700;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 26%;
-
+     height: inherit;
  }
 
  .motto h2{
@@ -55,9 +52,9 @@
  }
 
  .logo img{
-    width: 6.5rem;
-    height: 6rem;
     margin: .5rem 0rem;
+    height: inherit;
+
  }
 
  header svg{
@@ -82,13 +79,10 @@
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 400;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 2.8rem 1rem;
     font-size: 1.1em;
     display: flex;
     justify-content: space-between;
-
-    
 }
 
 header ul li a::after{
@@ -105,7 +99,6 @@ header ul li a::after{
 
 header ul li a:hover::after{
     width: 100%;
-    
 }
 
 
@@ -122,15 +115,12 @@ header ul li ul{
 
  header ul li ul li a{
     color: #b10e0e;
-
 }
 
 
  header ul li:hover > ul{
     transition: all 0.5s ease-in 0s;
     display: block;
-
-
 }
 
 
@@ -157,6 +147,11 @@ header ul li ul li ul{
     width:100%;
 } */
 
+main {
+    top: 0;
+}
+
+
 .flex{
     display: flex;
     justify-content: center;
@@ -179,15 +174,13 @@ header ul li ul li ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: gabriola;
+    
     
 }
 
 
 .welcome{
-    /* position: relative; */
     height: 70vh;
-    border: 1px solid red;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -205,9 +198,9 @@ header ul li ul li ul{
 
 .welcomeSectionOne h2{
     color: #b10e0e;
-    font-family: Candara light ;
+    
     font-size: 2em;
-    text-shadow: 1px 1px  5px black;
+    /* text-shadow: 1px 1px  5px black; */
     
 }
 
@@ -239,7 +232,7 @@ header ul li ul li ul{
     font-weight: 600;
     text-align: center ;
     padding: .2rem 0rem;
-    font-family: Candara light ;
+    
 }
 
 
@@ -253,7 +246,7 @@ header ul li ul li ul{
 }
 
 .welcomeSectionTwo p{
-    font-family: Candara light;
+    
     font-size: 1.2em;
     font-weight: 600;
     color: #292828;
@@ -281,7 +274,7 @@ header ul li ul li ul{
 
 .galleryHeader h2{
     text-align: center;
-    font-family: candara Light;
+    
     font-size: 2.5rem;
     text-shadow: 1px 1px 9px ;
     padding-bottom: 0.5rem;
@@ -340,7 +333,7 @@ header ul li ul li ul{
 }
 
 .eventHeader{
-    font-family: candara Light;
+    
     font-size: 2.5rem;
     text-shadow: 3px 3px 9px #214e03;  
     padding-bottom: 1.5rem;
@@ -416,7 +409,7 @@ header ul li ul li ul{
 
 .ptaContent h2{
     color: #b10e0e;
-    font-family: Candara light ;
+    
     font-size: 2em;
     text-shadow: 1px 1px  5px rgba(0, 0, 0, 0.849);
     
@@ -449,7 +442,7 @@ header ul li ul li ul{
     color: #FFFFFF;
     font-weight: 600;
     text-align: center ;
-    font-family: Candara light ;
+    
 }
 
 
@@ -463,7 +456,7 @@ header ul li ul li ul{
 }
 
 .ptaSpeech p{
-    font-family: Candara light;
+    
     font-size: 1.2em;
     font-weight: 600;
     color: #292828;
@@ -515,7 +508,7 @@ footer{
 
 :where(.aboutUsHead, .popularLinksHead, .contactUsHead) :is(h2){
     color: #FFFFFF;
-    font-family:Candara light;
+    
     text-align: center;
     
 }
@@ -534,7 +527,7 @@ footer{
 
 .aboutUsContent p{
     color: white;
-    font-family:Candara light ;
+    
     word-spacing: 3px;
     font-weight: 800;
     text-align: left;
@@ -559,7 +552,7 @@ footer{
     width: 100%;
     /* text-align: center; */
     padding-left: 1rem;
-    font-family: Candara light;
+    
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -588,7 +581,7 @@ footer{
 .footerContactContentText{
     color: #b10e0e;
     font-size: 1.1rem;
-    font-family: Candara light;
+    
     font-weight: 600;
     width: 70%;
   
@@ -615,7 +608,7 @@ footer{
     width: fit-content;
     text-align: center;
     color: #FFFFFF;
-    font-family: Candara light;
+    
 }
  
 
@@ -643,7 +636,7 @@ footer{
 .aboutPageText{
     color: #FFFFFF;
     font-size: 3rem;
-    font-family: Candara light;
+    
 }
 
 .aboutPageHr{
@@ -721,7 +714,6 @@ footer{
 
     header{
         padding: 5px 20px ;
-        position: static;
     }
 
     header nav{
@@ -751,7 +743,7 @@ footer{
         color: #FFFFFF;
         font-weight: 600;
         padding: 1rem 1rem;
-        font-family: Candara light;
+        
 
     }
 
