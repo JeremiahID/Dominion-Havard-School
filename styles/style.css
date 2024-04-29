@@ -95,7 +95,7 @@
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 400;
-    padding: 1em 1rem ;
+    padding: 1.35em 1rem ;
     display: flex;
     justify-content: space-between;
 }
@@ -120,8 +120,6 @@ header ul li a:hover::after{
 header ul li ul{
      position: absolute;
      left: 0;
-     /* top: 3em; */
-     /* width: 10vw; */
      background-color: rgba(0, 0, 0, 0.425);
      display: none;
      z-index: 1;
@@ -129,7 +127,7 @@ header ul li ul{
 
 
  header ul li ul li a{
-    color: #b10e0e;
+    color: #ffffff;
 }
 
 
@@ -151,9 +149,13 @@ header ul li ul li a{
 .nopaddinglist {
     padding-left: 0rem !important;
 }
+
+ol, ul {
+    padding-left: 0rem !important;
+}
 header ul li ul li ul{
     top:0;
-    left: -10vw;
+    left: -7.2em;
     width: 100%;
     
 }
