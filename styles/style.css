@@ -508,7 +508,6 @@ footer{
 
 :where(.aboutUsHead, .popularLinksHead, .contactUsHead) :is(h2){
     color: #FFFFFF;
-    
     text-align: center;
     
 }
