@@ -525,7 +525,6 @@ footer{
 
 :where(.aboutUsHead, .popularLinksHead, .contactUsHead) :is(h2){
     color: #FFFFFF;
-    
     text-align: center;
     
 }
@@ -737,7 +736,7 @@ footer{
         display: none;
         position: absolute;
         width: 100%;
-        top: 18vh;
+        top: 10vh;
         left: 0;
         
     }
@@ -752,7 +751,8 @@ footer{
         /* display: flex;
         justify-content: center; */
         z-index: 1;
-        background-color: #292828;
+        background-color: #1a1919;
+        backdrop-filter: blur(4px) !important;
 
     }
 
@@ -786,7 +786,7 @@ footer{
     }
 
     header ul li ul li ul li{
-        background-color: #292828;
+        background-color: #1a1919;
     }
 
     header ul li ul li ul li a{
@@ -852,7 +852,7 @@ footer{
     /* Events */
 
     .Events{
-        height: 120vh;
+        height: 140vh;
     }
 
     .grid-col-3{
@@ -862,7 +862,7 @@ footer{
 
 
     .eventWrapper{
-        min-height: 90vh;
+        min-height: 110vh;
 
     }
 
@@ -885,6 +885,14 @@ footer{
     .footerSvg{
         min-width: 4vw;
         max-height: 4vh;
+    }
+
+    .footerContactContentText{
+        font-size: 1rem;
+        width: 90%;
+        padding: 0rem .5rem;
+   
+      
     }
 
     .aboutUs, .popularLinks, .contactUs{
