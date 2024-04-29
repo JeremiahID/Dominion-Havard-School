@@ -16,27 +16,25 @@
      font-style: normal;
  }
 
+ .carousel .carousel-item {
+    max-height: 100vh !important;
+ }
 
  header{
-     position:sticky;
-     top: 0;
-     z-index: 1;
+     position:fixed;
      width: 100%;
-     min-height: 8vh;
-     background-color: #303030;
+     top: 0;
+     background-color: #1a1919;
      padding: 0 70px;
      display: flex;
      justify-content: space-between;
      align-items: center;
+     height: 4.3em;
+     z-index: 1000;
  }
-
  .logo{
      color: #FFFFFF;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 26%;
-
+     height: inherit;
  }
 
  .motto h2{
@@ -53,9 +51,9 @@
  }
 
  .logo img{
-    width: 6.5rem;
-    height: 6rem;
     margin: .5rem 0rem;
+    height: inherit;
+
  }
 
  header svg{
@@ -80,13 +78,10 @@
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 400;
-    
     padding: 2.8rem 1rem;
     font-size: 1.1em;
     display: flex;
     justify-content: space-between;
-
-    
 }
 
 header ul li a::after{
@@ -103,7 +98,6 @@ header ul li a::after{
 
 header ul li a:hover::after{
     width: 100%;
-    
 }
 
 
@@ -120,15 +114,12 @@ header ul li ul{
 
  header ul li ul li a{
     color: #b10e0e;
-
 }
 
 
  header ul li:hover > ul{
     transition: all 0.5s ease-in 0s;
     display: block;
-
-
 }
 
 
@@ -154,6 +145,11 @@ header ul li ul li ul{
 /* main{
     width:100%;
 } */
+
+main {
+    top: 0;
+}
+
 
 .flex{
     display: flex;
