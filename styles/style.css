@@ -24,7 +24,8 @@
      position:fixed;
      width: 100%;
      top: 0;
-     background-color: #1a1919;
+     background-color: #1a1919ad;
+     backdrop-filter: blur(4px) !important;
      padding: 0 70px;
      display: flex;
      justify-content: space-between;
@@ -179,9 +180,7 @@ main {
 
 
 .welcome{
-    /* position: relative; */
     height: 70vh;
-    border: 1px solid red;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -201,7 +200,7 @@ main {
     color: #b10e0e;
     
     font-size: 2em;
-    text-shadow: 1px 1px  5px black;
+    /* text-shadow: 1px 1px  5px black; */
     
 }
 
@@ -715,7 +714,6 @@ footer{
 
     header{
         padding: 5px 20px ;
-        position: static;
     }
 
     header nav{
