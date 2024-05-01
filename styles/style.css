@@ -753,6 +753,7 @@ footer{
 
     header nav ul li a{
         color: #FFFFFF;
+        /* former color #FFFFFF; */
         font-weight: 600;
         padding: 1rem 1rem;
         
@@ -767,7 +768,8 @@ footer{
     }
 
     header ul li ul li  {
-        background-color: #ffffffc0;
+        background-color:#418b0f;;
+        /* former color #ffffffc0 */
         border-bottom:1px solid #FFFFFF ;
     }
 
@@ -782,6 +784,7 @@ footer{
 
     header ul li ul li ul li{
         background-color: #1a1919;
+       
     }
 
     header ul li ul li ul li a{
@@ -798,11 +801,14 @@ footer{
     #open{
         display: block;
         height: 5vh;
+        color: #418b0f;
     }
 
     #close{
         display: none;
         height: 5vh;
+        color:#418b0f;
+        
     }
     
     .welcome, #ptaCorner{
