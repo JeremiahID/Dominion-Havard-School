@@ -561,7 +561,7 @@ footer{
     align-self: baseline;
     flex-direction: column;
     background-color: white;
-    width: 50%;
+    width: 55%;
 }
 
 
@@ -593,6 +593,8 @@ footer{
 
 .footerContactContent{
     display: flex;
+    justify-content: flex-start;
+    padding: 0rem;
     
 }
 
@@ -600,7 +602,6 @@ footer{
 .footerContactContentText{
     color: #b10e0e;
     font-size: 1.1rem;
-    
     font-weight: 600;
     width: 70%;
   
@@ -814,7 +815,7 @@ footer{
     }
     
     .welcome, #ptaCorner{
-    height: 130vh;
+    height: 150vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 1rem;
