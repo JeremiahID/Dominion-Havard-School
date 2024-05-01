@@ -146,6 +146,7 @@ header ul li ul li{
 
 header ul li ul li a{
     padding: 0.5rem 0.5rem !important;
+    border: 1px solid #fff;
 }
 .nopaddinglist {
     padding-left: 0rem !important;
@@ -156,8 +157,8 @@ ol, ul {
 }
 header ul li ul li ul{
     top:0;
-    left: -10em;
-    width: 100%;
+    left: -8em;
+    width: 8rem;
     
 }
 
