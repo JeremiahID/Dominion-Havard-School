@@ -749,6 +749,7 @@ footer{
 
     header nav ul li a{
         color: #FFFFFF;
+        /* former color #FFFFFF; */
         font-weight: 600;
         padding: 1rem 1rem;
         
