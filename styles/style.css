@@ -32,7 +32,11 @@
  }
 
  .hrthick {
-    height: 3px;
+    height: 2px !important;
+ }
+
+ .noopacity {
+    opacity: 1 !important;
  }
 
  header{
