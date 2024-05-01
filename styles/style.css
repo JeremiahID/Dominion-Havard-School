@@ -217,10 +217,6 @@ main {
 
 .welcomeSectionOne h2{
     color: #b10e0e;
-    
-    font-size: 2em;
-    /* text-shadow: 1px 1px  5px black; */
-    
 }
 
 
@@ -232,10 +228,12 @@ main {
     
 }
 
+.yellowash {
+    background-color: #b10e0e;
+}
+
 .welcomeImage{
     border: 1px solid #B2BEB5;
-    min-height: 45vh;
-    width: 60%;
 }
 
 .welcomePosition{
@@ -260,18 +258,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-   
-
-}
-
-.welcomeSectionTwo p{
-    
-    font-size: 1.2em;
-    font-weight: 600;
-    color: #292828;
-    text-align: center;
-    word-spacing: 3px;
-    padding: 3rem;
 }
 
 
