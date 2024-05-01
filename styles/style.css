@@ -31,11 +31,15 @@
     height: auto;
  }
 
+ .hrthick {
+    height: 3px;
+ }
+
  header{
      position:fixed;
      width: 100%;
      top: 0;
-     background-color: #000000b2;
+     /* background-color: #000000b2; */
      backdrop-filter: blur(4px) !important;
      padding: 0 70px;
      display: flex;
