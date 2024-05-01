@@ -122,6 +122,7 @@ header ul li ul{
      left: 0;
      background-color: rgba(0, 0, 0, 0.425);
      display: none;
+     width: 10vw;
      z-index: 1;
 }
 
@@ -145,6 +146,7 @@ header ul li ul li{
 
 header ul li ul li a{
     padding: 0.5rem 0.5rem !important;
+    border: 1px solid #fff;
 }
 .nopaddinglist {
     padding-left: 0rem !important;
@@ -155,8 +157,8 @@ ol, ul {
 }
 header ul li ul li ul{
     top:0;
-    left: -7.2em;
-    width: 100%;
+    left: -8em;
+    width: 8rem;
     
 }
 
@@ -546,7 +548,7 @@ footer{
     align-self: baseline;
     flex-direction: column;
     background-color: white;
-    width: 50%;
+    width: 55%;
 }
 
 
@@ -578,6 +580,8 @@ footer{
 
 .footerContactContent{
     display: flex;
+    justify-content: flex-start;
+    padding: 0rem;
     
 }
 
@@ -585,7 +589,6 @@ footer{
 .footerContactContentText{
     color: #b10e0e;
     font-size: 1.1rem;
-    
     font-weight: 600;
     width: 70%;
   
@@ -799,7 +802,7 @@ footer{
     }
     
     .welcome, #ptaCorner{
-    height: 130vh;
+    height: 150vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 1rem;
