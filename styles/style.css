@@ -275,23 +275,29 @@ main {
     /* position: relative; */
     min-height: 70vh; 
     margin-top: 5vh; 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
 .galleryHeader{
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+.hover1s {
+    /* transform: scale(.9); */
+    transition: .5s;
+}
+
+.hover1s:hover {
+    transform: scale(1.05);
+}
+
 .galleryHeader h2{
     text-align: center;
-    
     font-size: 2.5rem;
-    text-shadow: 1px 1px 9px ;
     padding-bottom: 0.5rem;
 }
 
