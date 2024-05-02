@@ -364,21 +364,15 @@ main {
 .eventWrapper{
     width: 98%;
     min-height: 45vh;
-    background-color: #fff;
 }
 
 .eventspan{
     grid-row: span 1;
     grid-column: span 1;
     margin: 1rem;
-    background-color: #fff;
-    border-bottom: 10px solid #b10e0e;
-    box-shadow: 3px 1px 4px 1px #797979;
-
 }
 
 .eventspan:hover{
-    box-shadow: 2px 2px 9px 0px black;
 }
 
 .eventDate{
