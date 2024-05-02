@@ -20,6 +20,8 @@
     max-height: 100vh !important;
  }
 
+ 
+
  .slideshow {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -346,10 +348,8 @@ main {
 /* Events */
 
 .Events{
-    /* position: relative; */
     min-height: 60vh;
     background-color: #b10e0e;
-    margin: 2rem 0rem;
     flex-direction: column;
 }
 
