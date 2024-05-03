@@ -20,6 +20,8 @@
     max-height: 100vh !important;
  }
 
+ 
+
  .slideshow {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -31,11 +33,19 @@
     height: auto;
  }
 
+ .hrthick {
+    height: 2px !important;
+ }
+
+ .noopacity {
+    opacity: 1 !important;
+ }
+
  header{
      position:fixed;
      width: 100%;
      top: 0;
-     background-color: #000000b2;
+     /* background-color: #000000b2; */
      backdrop-filter: blur(4px) !important;
      padding: 0 70px;
      display: flex;
@@ -267,23 +277,29 @@ main {
     /* position: relative; */
     min-height: 70vh; 
     margin-top: 5vh; 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
 .galleryHeader{
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+.hover1s {
+    /* transform: scale(.9); */
+    transition: .5s;
+}
+
+.hover1s:hover {
+    transform: scale(1.05);
+}
+
 .galleryHeader h2{
     text-align: center;
-    
     font-size: 2.5rem;
-    text-shadow: 1px 1px 9px ;
     padding-bottom: 0.5rem;
 }
 
@@ -332,10 +348,8 @@ main {
 /* Events */
 
 .Events{
-    /* position: relative; */
     min-height: 60vh;
     background-color: #b10e0e;
-    margin: 2rem 0rem;
     flex-direction: column;
 }
 
@@ -350,21 +364,15 @@ main {
 .eventWrapper{
     width: 98%;
     min-height: 45vh;
-    background-color: #fff;
 }
 
 .eventspan{
     grid-row: span 1;
     grid-column: span 1;
     margin: 1rem;
-    background-color: #fff;
-    border-bottom: 10px solid #b10e0e;
-    box-shadow: 3px 1px 4px 1px #797979;
-
 }
 
 .eventspan:hover{
-    box-shadow: 2px 2px 9px 0px black;
 }
 
 .eventDate{

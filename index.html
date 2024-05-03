@@ -11,10 +11,11 @@
     />
     <!-- <link rel="stylesheet" href="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css.map" /> -->
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="/MDB5-STANDARD-UI-KIT-Free-7.2.0/css/mdb.min.css">
   </head>
 
   <body>
-    <header>
+    <header class="bg-dark">
       <div class="logo">
         <img src="Images/logo.png" class="pb-3" alt="D'HAVARD" srcset="" />
         <div class="motto">
@@ -166,11 +167,11 @@
       </div>
 
       <section class="text-center bg-light">
-        <div class="pt-5">
+        <div class="py-5">
           <div class="container">
-            <h2 class="fw-bold text-warning">Welcome Address</h2>
-            <hr />
-            <div class="row">
+            <h2 class="fw-bol text-uppercase display-6 text-warning">Welcome Address</h2>
+            <hr class="text-warning hrthick noopacity"/>
+            <div class="py-5 row">
               <div class="col-sm-12 col-lg-6">
                 <img
                   src="/images/DSC_0245.JPG"
@@ -180,9 +181,9 @@
                 />
               </div>
               <div class="col-sm-12 col-lg-6">
-                <div class="lead">
-                  <p>
-                    <strong>Dominion Havard Preparatory School</strong> was
+                <div class="">
+                  <blockquote class="blockquote">
+                    <span class="fw-bold">Dominion Havard Preparatory School</span> was
                     established in ____ starting with Dominion Havard
                     Preparatory Nursery and Primary School, Benin , Nigeria. Our
                     Aim at Dominion Havard Preparatory School is to be widely
@@ -192,11 +193,11 @@
                     Statement is “To produce the total child through a holistic
                     education programme that benchmarks best practices while
                     being socially responsible.”
-                  </p>
-                  <div>
-                    <p>Mrs Egharevba Aderonke Abimbola</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer text-end">
+                    Mrs Egharevba Aderonke Abimbola
                     <p>Proprietress, Dominion Havard Preparatory Schools</p>
-                  </div>
+                  </figcaption>
                 </div>
               </div>
             </div>
@@ -204,58 +205,60 @@
         </div>
       </section>
 
-      <section class="gallery">
+      <section class="gallery container">
         <div class="galleryHeader">
-          <h2>Gallery</h2>
+          <h2 class="fw-bold text-dark text-uppercase">Gallery</h2>
           <hr />
         </div>
-
-        <div class="galleryPhotos">
-          <div class="photoOne">
-            <div class="photoOneImage">
-              <img
-                src="Images/DSC_0273.JPG"
-                alt=""
-                srcset=""
-                class="imageLayout"
-              />
-            </div>
-
-            <div class="photoOneContent"></div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-4 mb-lg-0">
+            <img
+              src="/images/DSC_0139.JPG"
+              class="w-100 shadow-1-strong rounded mb-4 hover1s hover-shadow"
+              alt="Boat on Calm Water"
+            />
+        
+            <img
+              src="/images/DSC_0234.JPG"
+              class="w-100 shadow-1-strong rounded mb-4 hover1s"
+              alt="Wintry Mountain Landscape"
+            />
           </div>
-
-          <div class="photoTwo">
-            <div class="photoTwoImage">
-              <img
-                src="Images/DSC_0234.JPG"
-                alt=""
-                srcset=""
-                class="imageLayout"
-              />
-            </div>
-
-            <div class="photoTwoContent"></div>
+        
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-4 mb-lg-0">
+            <img
+              src="/images/DSC_0275.JPG"
+              class="w-100 shadow-1-strong rounded mb-4 hover1s"
+              alt="Mountains in the Clouds"
+            />
+        
+            <img
+              src="/images/DSC_0240.JPG"
+              class="w-100 shadow-1-strong rounded mb-4 hover1s"
+              alt="Boat on Calm Water"
+            />
           </div>
-
-          <div class="photoThree">
-            <div class="photoThreeImage">
-              <img
-                src="Images/DSC_0245.JPG"
-                alt=""
-                srcset=""
-                class="imageLayout"
-              />
-            </div>
-
-            <div class="photoThreeContent"></div>
+        
+          <div class="d-none d-sm-block col-md-4 col-sm-6 mb-4 mb-lg-0">
+            <img
+              src="/images/DSC_0148.JPG"
+              class="w-100 shadow-1-strong rounded mb-4 hover1s"
+              alt="Waves at Sea"
+            />
+        
+            <img
+              src="/images/DSC_0270.JPG"
+              class="w-100 shadow-1-strong rounded mb-4 hover1s"
+              alt="Yosemite National Park"
+            />
           </div>
-        </div>
+        </div>       
       </section>
 
-      <section class="Events flex">
-        <h2 class="eventHeader">Upcoming Events</h2>
+      <section class="Events py-5 bg-dark flex">
+        <h4 class="eventHeader py-5">Upcoming Events</h4>
 
-        <div class="eventWrapper grid-col-3">
+        <div class="eventWrapper py-5 grid-col-3">
           <div class="eventspan">
             <div class="eventDate flex">
               <svg
@@ -441,7 +444,7 @@
         </div>
       </section>
 
-      <section id="ptaCorner">
+      <!-- <section id="ptaCorner">
         <div class="ptaContent">
           <h2>PTA's CORNER</h2>
 
@@ -466,6 +469,10 @@
             benchmarks best practices while being socially responsible.”
           </p>
         </div>
+      </section> -->
+
+      <section class="bg-warning">
+        <div class="title">call to action</div>
       </section>
     </main>
 
@@ -591,7 +598,7 @@
         </div>
       </div>
     </footer>
-
+    <script src="/MDB5-STANDARD-UI-KIT-Free-7.2.0/js/mdb.umd.min.js"></script>
     <script src="/js/index.js"></script>
     <script src="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
     <script src="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js.map"></script>
