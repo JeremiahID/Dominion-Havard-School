@@ -370,8 +370,8 @@ main {
     margin: 1rem;
 }
 
-.eventspan:hover{
-}
+/* .eventspan:hover{
+} */
 
 .eventDate{
     height: 80%;
@@ -578,13 +578,12 @@ footer{
     width: 100%;
     /* text-align: center; */
     padding-left: 1rem;
-    
     font-size: 1.2rem;
     font-weight: 700;
 }
 
 .popularLinksContent a:hover{
-   text-shadow: 1px 1px 3px  black;
+   text-shadow: 1px 2px 10px  black;
 }
 
 /* Footer Svgs */
