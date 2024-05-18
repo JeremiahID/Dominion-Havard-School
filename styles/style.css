@@ -486,8 +486,7 @@ main {
 
 footer{
     min-height: 80vh;
-    background-color:  #303030;
-    /* background-color: #303030d0; */
+    background-color:  #c2140b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -541,9 +540,7 @@ footer{
 
 .aboutUsContent p{
     color: white;
-    
-    word-spacing: 3px;
-    font-weight: 800;
+    font-weight: 200;
     text-align: left;
     width: 80%;
     
@@ -555,7 +552,6 @@ footer{
     align-items: baseline;
     align-self: baseline;
     flex-direction: column;
-    background-color: white;
     width: 55%;
 }
 
@@ -563,7 +559,7 @@ footer{
 
 .popularLinksContent a{
     text-decoration: none;
-    color:  #b10e0e;
+    color:  #dfdfdf;
     width: 100%;
     /* text-align: center; */
     padding-left: 1rem;
@@ -579,7 +575,6 @@ footer{
 /* Footer Svgs */
 
 .footerSvg{
-    color: #b10e0e;
     width: 3vw;
     height: 3vh;
 }
@@ -595,7 +590,7 @@ footer{
 
 
 .footerContactContentText{
-    color: #b10e0e;
+    color: #e7e7e7;
     font-size: 1.1rem;
     font-weight: 600;
     width: 70%;
