@@ -493,6 +493,22 @@ footer{
     flex-direction: column;
 }
 
+.text-red {
+    color : #c2140b !important;
+}
+
+.text-green{
+    color: #024e32;
+}
+
+.background-green {
+    background-color: #024e32;
+}
+
+.background-red {
+    background-color: #c2140b;
+}
+
 .footerSectionOne{
     width: 100%;
     height:70vh;
@@ -763,7 +779,6 @@ footer{
     }
 
     header ul li ul li  {
-        background-color:#418b0f;;
         /* former color #ffffffc0 */
         border-bottom:1px solid #FFFFFF ;
     }
@@ -796,14 +811,11 @@ footer{
     #open{
         display: block;
         height: 5vh;
-        color: #418b0f;
     }
 
     #close{
         display: none;
         height: 5vh;
-        color:#418b0f;
-        
     }
     
     .welcome, #ptaCorner{

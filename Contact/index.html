@@ -7,62 +7,90 @@
     <title>Drop Down</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/contact.css">
+    <link
+    rel="stylesheet"
+    href="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css"
+    
+  />
+  <link rel="stylesheet" href="/styles/style.css"/>
+  <link rel="stylesheet" href="/MDB5-STANDARD-UI-KIT-Free-7.2.0/css/mdb.min.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="/Images/logo.png" alt="" srcset="" />
-            <div class="motto">
-             <!-- 
-             <h2>D'HAVARD</h2>
-             <h4>PREPARATORY</h4>
-             <h4>SCHOOLS</h4>
-             <P>...education for global competence</P> -->
-            </div>
-         </div>
-        </div>
+    <header class="background-red">
+      
+        <a href="/" class="logo">
+          <img src="/Images/logo.png" class="pb-3" alt="D'HAVARD" srcset="" />
+          <div class="motto">
+          </div>
+        </a>
         <nav>
-            <ul>
-                <li><a href="/index.html"> Home </a></li>
-                <li><a href="../About/"> About </a></li>
-                <li id="admission"><a href="#"> Admission </a>
-                    <ul id="admissionLinks">
-                        <li><a href="">Why choose DH?</a></li>
-                        <li><a href="">How to Apply?</a></li>
-                        <li><a href="">Download Form</a></li>
-                        <li><a href="">FAQs</a></li>
-                    </ul>
-                
+          <ul class="nopaddinglist">
+            <li><a href="/" class="fs-6 fw-bold"> Home </a></li>
+            <li><a href="About/" class="fs-6 fw-bold"> About </a></li>
+            <li id="admission">
+              <a href="#" class="fs-6 fw-bold"> Admission </a>
+              <ul class="fs-6" id="admissionLinks">
+                <li><a href="" class="fs-6 fw-bold">Why choose DH?</a></li>
+                <li><a href="" class="fs-6 fw-bold">How to Apply?</a></li>
+                <li><a href="" class="fs-6 fw-bold">Download Form</a></li>
+                <li><a href="" class="fs-6 fw-bold">FAQs</a></li>
+              </ul>
+            </li>
+  
+            <li id="academics">
+              <a href="#" class="fs-6 fw-bold"> Academics </a>
+              <ul id="academicsLinks">
+                <li id="schoolPortal">
+                  <a href="#" class="fs-6 fw-bold"> School Portal </a>
+                  <ul id="schoolPortalLink">
+                    <li><a href="/Staff/" class="fs-6 fw-bold">Staff</a></li>
+                    <li><a href="/Student/" class="fs-6 fw-bold">Student</a></li>
+                  </ul>
                 </li>
-                
-                
-                <li id="academics"><a href="#"> Academics </a> 
-                    <ul id="academicsLinks">
-                        <li id="schoolPortal"><a href="#"> School Portal </a>
-                            <ul id="schoolPortalLink">
-                                <li><a href="../Staff/">Staff</a></li>
-                                <li><a href="../Student/">Student</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#"> E-learning  </a></li>
-                        <li><a href="#"> Calender  </a></li>
-                        <li><a href="#"> Special Programs  </a></li>
-                        <li><a href="#"> PTA Corner's  </a></li>
-                        <li><a href="#"> Student Spotlights  </a></li>
-                    </ul>
-                </li>
-                <li><a href="../Contact/"> Contact </a></li>
-            </ul>
+                <li><a href="#" class="fs-6 fw-bold"> E-learning </a></li>
+                <li><a href="#" class="fs-6 fw-bold"> Calender </a></li>
+                <li><a href="#" class="fs-6 fw-bold"> Special Programs </a></li>
+                <li><a href="#" class="fs-6 fw-bold"> PTA Corner's </a></li>
+                <li><a href="#" class="fs-6 fw-bold"> Student Spotlights </a></li>
+              </ul>
+            </li>
+            <li><a href="/Contact/" class="fs-6 fw-bold"> Contacts </a></li>
+          </ul>
         </nav>
-
-        <svg id="open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-
-        <svg id="close" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+  
+        <svg
+          id="open"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
         </svg>
-    </header>
+  
+        <svg
+          id="close"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18 18 6M6 6l12 12"
+          />
+        </svg>
+      </header>
+  
 
     <main>
         <div class="itSupport layoutHead flexLayout">
@@ -215,8 +243,10 @@
         </div>
     
     </footer>
-
+    <script src="/MDB5-STANDARD-UI-KIT-Free-7.2.0/js/mdb.umd.min.js"></script>
     <script src="/js/index.js"></script>
+    <script src="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js.map"></script>
 </body>
 
 
