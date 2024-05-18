@@ -130,16 +130,13 @@ header ul li a:hover::after{
 header ul li ul{
      position: absolute;
      left: 0;
-     background-color: rgba(0, 0, 0, 0.425);
+     background-color:#c2140b;
      display: none;
      width: 10vw;
      z-index: 1;
 }
 
 
- header ul li ul li a{
-    color: #ffffff;
-}
 
 
  header ul li:hover > ul{
@@ -156,7 +153,8 @@ header ul li ul li{
 
 header ul li ul li a{
     padding: 0.5rem 0.5rem !important;
-    border: 1px solid #fff;
+    color: #fff;
+    /* border: 1px solid #fff; */
 }
 .nopaddinglist {
     padding-left: 0rem !important;
