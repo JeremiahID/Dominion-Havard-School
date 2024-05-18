@@ -540,10 +540,12 @@ footer{
 
 .aboutUsContent p{
     color: white;
-    font-weight: 200;
     text-align: left;
     width: 80%;
-    
+}
+
+.force100 {
+    font-weight: 200 !important;
 }
 
 .footerContent{
@@ -552,7 +554,6 @@ footer{
     align-items: baseline;
     align-self: baseline;
     flex-direction: column;
-    width: 55%;
 }
 
 
@@ -600,7 +601,6 @@ footer{
 
 .footerSectionTwo{
     width: 100%;
-    height:10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
