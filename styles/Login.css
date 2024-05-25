@@ -41,7 +41,7 @@ body{
 .containerContent{
     height: 99.9%;
     width: 50%;
-    background-color: #303030d0;
+    background-color: #c2140b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,16 +92,16 @@ input:focus{
 button{
     width: 20vw;
     height: 5vh;
-    border-radius: 5px;
+    /* border-radius: 5px !important; */
     border: 0px;
-    color: #FFFFFF;
-    background-color: #b10e0e;
+    color: #c2140b;
     cursor: pointer;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
+    border-radius: 15px !important;
 }
 
 button:hover{
-    background-color: #ac1919;
+    background-color: #c7c7c7 ;
 }
 
 .containerContent P{

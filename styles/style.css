@@ -638,23 +638,20 @@ footer{
 
 .aboutMain{
     width: 100%;
-    min-height: 150vh;
-  
+    /* min-height: 150vh; */
+    padding-top: 100px;
 }
 
 .aboutHeaderWrapper{
     width:100%;
-    height: 25vh;
-    border: 1px solid black;
-    border-top: 1px solid #fff;
-    background-color: #303030;
-
+    border-bottom: 1px solid #c2140b;
+    color: #c2140b;
 
 }
 
 .aboutPageText{
-    color: #FFFFFF;
-    font-size: 3rem;
+    color: #c2140b;
+    font-size: 2rem;
     
 }
 
@@ -683,7 +680,6 @@ footer{
 /* History */
 
 .historyContent{
-    border: 1px solid red;
     min-height: 60vh;
 }
 
@@ -971,7 +967,7 @@ footer{
         }
 
         .aboutPageText{
-            font-size: 2rem;
+            font-size: 1rem;
 
         }
 
