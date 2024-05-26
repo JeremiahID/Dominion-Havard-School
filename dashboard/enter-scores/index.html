@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,10 +8,11 @@
   <link rel="stylesheet" href="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css" />
   <link rel="stylesheet" href="/dashboard/style/styles.css" />
 </head>
+
 <body>
-<div class="preloader">
-   <div class="loader"></div>
-</div>
+  <div class="preloader">
+    <div class="loader"></div>
+ </div>
   <main class="container-fluid">
     <div class="row">
       <section class="side-nav col-3 d-flex flex-column py-4 container">
@@ -30,6 +32,7 @@
               <img src="/dashboard/media/profile.gif" class="me-3" alt="" width="40px" srcset="" />My Profile
             </a>
           </div>
+
           <hr />
         </div>
         <button class="btn textstart btn-light btn-sm">
@@ -39,29 +42,33 @@
       <section class="main col-9 text-center">
         <div class="main-body">
           <div class="text-center greyish py-4">
-            <div class="roboto-bold f5-6">DASHBOARD</div>
+            <div class="roboto-bold f5-6 text-uppercase">Manage Scores</div>
           </div>
           <div class="bg-light full-height px-3 rounded">
             <div class="text-start px-2 py-5">
-              <div class="fs-5 roboto-bold ">Welcome Tutor User</div>
-              <div class="text-secondary">Hope you are having a great time</div>
+              <div class="fs-5 roboto-bold ">Select Subject/Class</div>
+              <div class="text-secondary">These are the subject you offer and the class along side. click on any to enter scores for student.</div>
             </div>
             <div class="d-grid gap-4">
               <div class="btn btn-danger btn-lg">Manage scores</div>
               <div class="btn btn-danger btn-lg">View my profile</div>
             </div>
           </div>
+          
         </div>
+       
       </section>
     </div>
+
   </main>
   <script src="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
   <script src='/dashboard/jquery/jquery.min.js'></script>
-  <script>
+    <script>
     $(window).load(function() {
     $(".preloader").delay(400).fadeOut("slow");
     $("#overlayer").delay(400).fadeOut("slow");
     })
  </script>
 </body>
+
 </html>
