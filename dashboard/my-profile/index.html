@@ -36,20 +36,48 @@
           <img src="/dashboard/media/logout.gif" class="me-3" alt="" width="40px" srcset="" />Log Out
         </button>
       </section>
-      <section class="main col-9 text-center">
+      <section class="main col-9 overflow text-center">
         <div class="main-body">
           <div class="text-center greyish py-4">
             <div class="roboto-bold f5-6">DASHBOARD</div>
           </div>
           <div class="bg-light full-height px-3 rounded">
+            <div class="info">
+              <div class="text-start px-2 py-5">
+                <div class="fs-5 roboto-bold text-capitalize">Your Personal Info</div>
+                <div class="text-secondary">To make changes to personal info please contact school Admin.</div>
+              </div>
+              <div class="d-grid gap-4 ">
+                <ul class="list-group list-group-flush text-start">
+                  <li class="list-group-item"><div class="row"><div class="col-2"><span class="px-2">Name:</span></div><div class="col-10"><span class="px-1" id="Title">Mr.</span><span class="text-capitalize" id="FullName">Osasere Ikponmwosa</span></div></div></li>
+                  <li class="list-group-item"><div class="row"><div class="col-2"><span class="px-2">Gender:</span></div><div class="col-10"><span id="Gender" class="text-lowercase">Male</span></div></div></li>
+                  <li class="list-group-item"><div class="row"><div class="col-2"><span class="px-2">Email:</span></div><div class="col-10"><a href="mailto:edenosas1@gmail.com" class="text-lowercase" id="Email">edenosas1@gmail.com</a></div></div></li>
+                  <li class="list-group-item"><div class="row"><div class="col-2"><span class="px-2">Phone:</span></div><div class="col-10"><a href="tel:+2348165179215" class="text-lowercase" id="Phone">0816 517 9215</a></div></div></li>
+                  <li class="list-group-item"><div class="row"><div class="col-2"><span class="px-2">Address</span></div><div class="col-10"><span id="Address" class="text-capitalize">1 Amegor street off nova road, Ugbowo benin city</span></div></div></li>
+                </ul>
+              </div>
+            </div>
+           <div class="password pt-3">
             <div class="text-start px-2 py-5">
-              <div class="fs-5 roboto-bold ">Welcome Tutor User</div>
-              <div class="text-secondary">Hope you are having a great time</div>
+              <div class="fs-5 roboto-bold text-capitalize">Change Your Password</div>
+              <div class="text-secondary">You can change your password here</div>
             </div>
-            <div class="d-grid gap-4">
-              <div class="btn btn-danger btn-lg">Manage scores</div>
-              <div class="btn btn-danger btn-lg">View my profile</div>
+            <div class="row pb-5">
+                <div class="my-1 col-6 text-start">
+                  <label for="oldPassword" class="text-capitalize form-label">Old Password</label>
+                  <input type="password" id="oldPassword" placeholder="Enter Old Password" class="form-control">
+                </div>
+                <div class="my-1 col-6 text-start">
+                  <label for="newPassword" class="text-capitalize form-label">new Password</label>
+                  <input type="password" id="newPassword" placeholder="Enter New Password" class="form-control">
+                </div>
+                <div class="my-1 col-12 text-start">
+                  <label for="confirmPassword" class="text-capitalize form-label">confirm Password</label>
+                  <input type="password" id="confirmPassword" placeholder="Re-Enter New Password" class="form-control">
+                </div>
+                <div class="btn my-4 btn-danger text-capitalize">change password</div>
             </div>
+           </div>
           </div>
         </div>
       </section>

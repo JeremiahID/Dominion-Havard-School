@@ -135,5 +135,22 @@ body {
     border-color: #c2140b;
 }
 .full-height {
-    height: 100vh;
+    height: 85vh;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #c2140b;
+}
+
+a:hover {
+    color: #aa130b;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #c2140b57;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(194, 20, 11, 0.25);
 }
