@@ -154,3 +154,7 @@ a:hover {
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(194, 20, 11, 0.25);
 }
+
+hr {
+    color: #c2140b;
+}
