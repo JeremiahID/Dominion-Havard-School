@@ -14,8 +14,11 @@
     <div class="loader"></div>
  </div>
   <main class="container-fluid">
-    <div class="row">
-      <section class="side-nav col-3 d-flex flex-column py-4 container">
+    <div class="offf">
+      <a href="#menu" data-bs-toggle="offcanvas" >menu</a>
+      <div id="menu" class="offcanvas offcanvas-start">
+        
+      <section class="side-nav d-flex flex-column py-4">
         <div class="flex-grow-1">
           <div class="py-2 text-red">
             <div class="roboto-bold fs-5">Osasere</div>
@@ -39,7 +42,36 @@
           <img src="/dashboard/media/logout.gif" class="me-3" alt="" width="40px" srcset="" />Log Out
         </button>
       </section>
-      <section class="main col-9 text-center">
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-3 container d-none d-md-block">
+      <section class="side-nav d-flex flex-column py-4">
+        <div class="flex-grow-1">
+          <div class="py-2 text-red">
+            <div class="roboto-bold fs-5">Osasere</div>
+            <div class="roboto-thin fs-6">edenosas1@gmail.com</div>
+          </div>
+          <div class="d-grid gap-2">
+            <a href="/dashboard/" class="btn textstart btn-light btn-sm">
+              <img src="/dashboard/media/bar.gif" class="me-3" alt="" width="40px" srcset="" />Dashboard
+            </a>
+            <a href="/dashboard/enter-scores/" class="btn textstart btn-light btn-sm">
+              <img src="/dashboard/media/boxes.gif" class="me-3" alt="" width="40px" srcset="" />Enter Scores
+            </a>
+            <a href="/dashboard/my-profile/" class="btn textstart btn-light btn-sm">
+              <img src="/dashboard/media/profile.gif" class="me-3" alt="" width="40px" srcset="" />My Profile
+            </a>
+          </div>
+
+          <hr />
+        </div>
+        <button class="btn textstart btn-light btn-sm">
+          <img src="/dashboard/media/logout.gif" class="me-3" alt="" width="40px" srcset="" />Log Out
+        </button>
+      </section>
+    </div>
+      <section class="main col-12 col-md-9 text-center">
         <div class="main-body">
           <div class="text-center greyish py-4">
             <div class="roboto-bold f5-6 text-uppercase">Manage Scores</div>

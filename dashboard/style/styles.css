@@ -6,6 +6,7 @@ body {
     font-style: normal;
     color: #212529 !important;
     background-color: #e4e4e4 !important;
+    font-size: 0.9rem;
 }
 .preloader {
     width: 100vw;
