@@ -14,6 +14,7 @@
     <div class="preloader">
       <div class="loader"></div>
     </div>
+    <!-- this is for tablet and desktop view randeebobo theres is another for mobile view below -->
     <main class="container-fluid">
       <div class="row">
         <div class="col-3 container d-none d-md-block">
@@ -71,9 +72,78 @@
             </button>
           </section>
         </div>
+
+        <!-- this is the beginning of moboile view nav -->
+        <div class="d-flex below d-md-none pt-2 px-3 fixed-top">
+          <div class="d-flex justify-content-start" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <img src="/dashboard/media/nav.gif" width="40" alt="" srcset="">
+          </div>
+          
+        </div>
+       <!-- this is the actual menu for the mobile view it's an offcanvas -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="d-flex justify-content-between">
+            <div class="py-2 px-1">
+              <div class="py-2 text-red">
+                <div class="roboto-bold fs-5">Osasere</div>
+                <div class="roboto-thin fs-6">edenosas1@gmail.com</div>
+    
+              </div>
+            </div>
+            <div class="d-flex justify-content-end px-3 py-2" data-bs-toggle="offcanvas" type="button" aria-controls="offcanvasExample" data-bs-target="#offcanvasNavbar">
+              <img src="/dashboard/media/nav.gif" width="40px" height="37.59px" alt="" srcset="">
+            </div>
+          </div>
+          <div class="d-grid pt-1 gap-2">
+            <a href="/dashboard/" class="btn textstart btn-light btn-sm">
+              <img
+                src="/dashboard/media/bar.gif"
+                class="me-3"
+                alt
+                width="40px"
+                srcset
+              />Dashboard
+            </a>
+            <a
+              href="/dashboard/enter-scores/"
+              class="btn textstart btn-light btn-sm"
+            >
+              <img
+                src="/dashboard/media/boxes.gif"
+                class="me-3"
+                alt
+                width="40px"
+                srcset
+              />Enter Scores
+            </a>
+            <a
+              href="/dashboard/my-profile/"
+              class="btn textstart btn-light btn-sm"
+            >
+              <img
+                src="/dashboard/media/profile.gif"
+                class="me-3"
+                alt
+                width="40px"
+                srcset
+              />My Profile
+            </a>
+            <button class="btn textstart btn-light btn-sm">
+              <img
+                src="/dashboard/media/logout.gif"
+                class="me-3"
+                alt
+                width="40px"
+                srcset
+              />Log Out
+            </button>
+          </div>
+        </div>
+        <!-- this is the end of the mobile view -->
+
         <section class="main col-12 col-md-9 overflow text-center">
           <div class="main-body">
-            <div class="text-center greyish py-4">
+            <div class="text-center greyish py-4">           
               <div class="roboto-bold f5-6">DASHBOARD</div>
             </div>
             <div class="bg-light full-height px-3 rounded">
