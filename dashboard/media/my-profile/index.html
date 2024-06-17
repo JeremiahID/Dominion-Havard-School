@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="/dashboard/style/styles.css" />
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- this is for tablet and desktop view randeebobo theres is another for mobile view below -->
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-3 container d-none d-md-block">
+          <section class="side-nav d-flex flex-column py-4">
+            <div class="flex-grow-1">
+              <div class="py-2 text-red">
+                <div class="roboto-bold fs-5">Osasere</div>
+                <div class="roboto-thin fs-6">edenosas1@gmail.com</div>
+              </div>
+              <div class="d-grid gap-2">
+                <a href="/dashboard/" class="btn textstart btn-light btn-sm">
+                  <img
+                    src="/dashboard/media/bar.gif"
+                    class="me-3"
+                    alt
+                    width="40px"
+                    srcset
+                  />Dashboard
+                </a>
+                <a
+                  href="/dashboard/enter-scores/"
+                  class="btn textstart btn-light btn-sm"
+                >
+                  <img
+                    src="/dashboard/media/boxes.gif"
+                    class="me-3"
+                    alt
+                    width="40px"
+                    srcset
+                  />Enter Scores
+                </a>
+                <a
+                  href="/dashboard/my-profile/"
+                  class="btn textstart btn-light btn-sm"
+                >
+                  <img
+                    src="/dashboard/media/profile.gif"
+                    class="me-3"
+                    alt
+                    width="40px"
+                    srcset
+                  />My Profile
+                </a>
+              </div>
+              <hr />
+            </div>
+            <button class="btn textstart btn-light btn-sm">
+              <img
+                src="/dashboard/media/logout.gif"
+                class="me-3"
+                alt
+                width="40px"
+                srcset
+              />Log Out
+            </button>
+          </section>
+        </div>
+
+        <!-- this is the beginning of moboile view nav -->
+        <div class="d-flex below d-md-none pt-2 px-3 fixed-top">
+          <div class="d-flex justify-content-start" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <img src="/dashboard/media/nav.gif" width="40" alt="" srcset="">
+          </div>
+          
+        </div>
+       <!-- this is the actual menu for the mobile view it's an offcanvas -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="d-flex justify-content-between">
+            <div class="py-2 px-1">
+              <div class="py-2 text-red">
+                <div class="roboto-bold fs-5">Osasere</div>
+                <div class="roboto-thin fs-6">edenosas1@gmail.com</div>
+    
+              </div>
+            </div>
+            <div class="d-flex justify-content-end px-3 py-2" data-bs-toggle="offcanvas" type="button" aria-controls="offcanvasExample" data-bs-target="#offcanvasNavbar">
+              <img src="/dashboard/media/nav.gif" width="40px" height="37.59px" alt="" srcset="">
+            </div>
+          </div>
+          <div class="d-grid pt-1 gap-2">
+            <a href="/dashboard/" class="btn textstart btn-light btn-sm">
+              <img
+                src="/dashboard/media/bar.gif"
+                class="me-3"
+                alt
+                width="40px"
+                srcset
+              />Dashboard
+            </a>
+            <a
+              href="/dashboard/enter-scores/"
+              class="btn textstart btn-light btn-sm"
+            >
+              <img
+                src="/dashboard/media/boxes.gif"
+                class="me-3"
+                alt
+                width="40px"
+                srcset
+              />Enter Scores
+            </a>
+            <a
+              href="/dashboard/my-profile/"
+              class="btn textstart btn-light btn-sm"
+            >
+              <img
+                src="/dashboard/media/profile.gif"
+                class="me-3"
+                alt
+                width="40px"
+                srcset
+              />My Profile
+            </a>
+            <button class="btn textstart btn-light btn-sm">
+              <img
+                src="/dashboard/media/logout.gif"
+                class="me-3"
+                alt
+                width="40px"
+                srcset
+              />Log Out
+            </button>
+          </div>
+        </div>
+        <!-- this is the end of the mobile view -->
+
+        <section class="main col-12 col-md-9 overflow text-center">
+          <div class="main-body">
+            <div class="text-center greyish py-4">           
+              <div class="roboto-bold f5-6">DASHBOARD</div>
+            </div>
+            <div class="bg-light full-height px-3 rounded">
+              <div class="info">
+                <div class="text-start px-2 py-5">
+                  <div class="fs-5 roboto-bold text-capitalize">
+                    Your Personal Info
+                  </div>
+                  <div class="text-secondary">
+                    To make changes to personal info please contact school
+                    Admin.
+                  </div>
+                </div>
+                <div class="d-grid gap-4">
+                  <ul class="list-group list-group-flush text-start">
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-4 col-md-2"><span class="px-2">Name:</span></div>
+                        <div class="col-8 col-md-10">
+                          <span class="pe-1" id="Title">Mr.</span
+                          ><span class="text-capitalize" id="FullName"
+                            >Osasere Ikponmwosa</span
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-4 col-md-2">
+                          <span class="px-2">Gender:</span>
+                        </div>
+                        <div class="col-8 col-md-10">
+                          <span id="Gender" class="text-lowercase">Male</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-4 col-md-2">
+                          <span class="px-2">Email:</span>
+                        </div>
+                        <div class="col-8 col-md-10">
+                          <a
+                            href="mailto:edenosas1@gmail.com"
+                            class="text-lowercase"
+                            id="Email"
+                            ><span>edenosas1@gmail.com</span></a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-4 col-md-2">
+                          <span class="px-2">Phone:</span>
+                        </div>
+                        <div class="col-8 col-md-10">
+                          <a
+                            href="tel:+2348165179215"
+                            class="text-lowercase"
+                            id="Phone"
+                            >0816 517 9215</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-4 col-md-2">
+                          <span class="px-2">Address</span>
+                        </div>
+                        <div class="col-8 col-md-10">
+                          <span id="Address" class="text-capitalize"
+                            >1 Amegor street off nova road, Ugbowo benin
+                            city</span
+                          >
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="password pt-3">
+                <div class="text-start px-2 py-5">
+                  <div class="fs-5 roboto-bold text-capitalize">
+                    Change Your Password
+                  </div>
+                  <div class="text-secondary">
+                    You can change your password here
+                  </div>
+                </div>
+                <div class="row pb-5">
+                  <div class="my-1 col-12 col-md-6 text-start">
+                    <label for="oldPassword" class="text-capitalize form-label"
+                      >Old Password</label
+                    >
+                    <input
+                      type="password"
+                      id="oldPassword"
+                      placeholder="Enter Old Password"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="my-1 col-12 col-md-6 text-start">
+                    <label for="newPassword" class="text-capitalize form-label"
+                      >new Password</label
+                    >
+                    <input
+                      type="password"
+                      id="newPassword"
+                      placeholder="Enter New Password"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="my-1 col-12 text-start">
+                    <label
+                      for="confirmPassword"
+                      class="text-capitalize form-label"
+                      >confirm Password</label
+                    >
+                    <input
+                      type="password"
+                      id="confirmPassword"
+                      placeholder="Re-Enter New Password"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="btn my-4 btn-danger text-capitalize">
+                    change password
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="/dashboard/jquery/jquery.min.js"></script>
+    <script>
+      $(window).load(function () {
+        $(".preloader").delay(400).fadeOut("slow");
+        $("#overlayer").delay(400).fadeOut("slow");
+      });
+    </script>
+  </body>
+</html>

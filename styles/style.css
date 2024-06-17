@@ -130,7 +130,7 @@ header ul li a:hover::after{
 header ul li ul{
      position: absolute;
      left: 0;
-     background-color:#c2140b;
+     background-color:#050101;
      display: none;
      width: 10vw;
      z-index: 1;
@@ -484,7 +484,7 @@ main {
 
 footer{
     min-height: 80vh;
-    background-color:  #c2140b;
+    background-color:  #050101;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -492,7 +492,7 @@ footer{
 }
 
 .text-red {
-    color : #c2140b !important;
+    color : #050101 !important;
 }
 
 .text-green{
@@ -504,7 +504,7 @@ footer{
 }
 
 .background-red {
-    background-color: #c2140b;
+    background-color: #050101;
 }
 
 .footerSectionOne{
@@ -644,13 +644,13 @@ footer{
 
 .aboutHeaderWrapper{
     width:100%;
-    border-bottom: 1px solid #c2140b;
-    color: #c2140b;
+    border-bottom: 1px solid #050101;
+    color: #050101;
 
 }
 
 .aboutPageText{
-    color: #c2140b;
+    color: #050101;
     font-size: 2rem;
     
 }
