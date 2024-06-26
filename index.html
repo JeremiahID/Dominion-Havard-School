@@ -1,158 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Dominion Havard </title>
-    <link
-      rel="stylesheet"
-      href="./styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css"
-      
-    />
-    <link rel="stylesheet" href="./styles/style.css"/>
-    <link rel="stylesheet" href="./MDB5-STANDARD-UI-KIT-Free-7.2.0/css/mdb.min.css">
-  </head>
 
-  <body>
-    <header class="background-red">
-      
-      <a href="/" class="logo">
-        <img src="/Images/logo.png" class="pb-3" alt="D'HAVARD" srcset="" />
-        <div class="motto">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Dominion Havard </title>
+  <link rel="stylesheet" href="./styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./MDB5-STANDARD-UI-KIT-Free-7.2.0/css/mdb.min.css">
+</head>
+
+<body>
+  <header class="background-red">
+
+    <a href="/" class="logo">
+      <img src="/Images/logo.png" class="pb-3" alt="D'HAVARD" srcset="" />
+      <div class="motto">
+      </div>
+    </a>
+    <nav>
+      <ul class="nopaddinglist">
+        <li><a href="/" class="fs-6 fw-bold"> Home </a></li>
+        <li><a href="/About/" class="fs-6 fw-bold"> About </a></li>
+        <li id="admission">
+          <a href="#" class="fs-6 fw-bold"> Admission </a>
+          <ul class="fs-6" id="admissionLinks">
+            <li><a href="" class="fs-6 fw-bold">Why choose DH?</a></li>
+            <li><a href="" class="fs-6 fw-bold">How to Apply?</a></li>
+            <li><a href="" class="fs-6 fw-bold">Download Form</a></li>
+            <li><a href="" class="fs-6 fw-bold">FAQs</a></li>
+          </ul>
+        </li>
+
+        <li id="academics">
+          <a href="#" class="fs-6 fw-bold"> Academics </a>
+          <ul id="academicsLinks">
+            <li id="schoolPortal">
+              <a href="#" class="fs-6 fw-bold"> School Portal </a>
+              <ul id="schoolPortalLink">
+                <li><a href="/Staff/" class="fs-6 fw-bold">Staff</a></li>
+                <li><a href="/Student/" class="fs-6 fw-bold">Student</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="fs-6 fw-bold"> E-learning </a></li>
+            <li><a href="#" class="fs-6 fw-bold"> Calender </a></li>
+            <li><a href="#" class="fs-6 fw-bold"> Special Programs </a></li>
+            <li><a href="#" class="fs-6 fw-bold"> PTA Corner's </a></li>
+            <li><a href="#" class="fs-6 fw-bold"> Student Spotlights </a></li>
+          </ul>
+        </li>
+        <li><a href="/Contact/" class="fs-6 fw-bold"> Contacts </a></li>
+      </ul>
+    </nav>
+
+    <svg id="open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+
+    <svg id="close" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+    </svg>
+  </header>
+
+  <main class="">
+    <div class="slideshow">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-height" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
         </div>
-      </a>
-      <nav>
-        <ul class="nopaddinglist">
-          <li><a href="/" class="fs-6 fw-bold"> Home </a></li>
-          <li><a href="/About/" class="fs-6 fw-bold"> About </a></li>
-          <li id="admission">
-            <a href="#" class="fs-6 fw-bold"> Admission </a>
-            <ul class="fs-6" id="admissionLinks">
-              <li><a href="" class="fs-6 fw-bold">Why choose DH?</a></li>
-              <li><a href="" class="fs-6 fw-bold">How to Apply?</a></li>
-              <li><a href="" class="fs-6 fw-bold">Download Form</a></li>
-              <li><a href="" class="fs-6 fw-bold">FAQs</a></li>
-            </ul>
-          </li>
-
-          <li id="academics">
-            <a href="#" class="fs-6 fw-bold"> Academics </a>
-            <ul id="academicsLinks">
-              <li id="schoolPortal">
-                <a href="#" class="fs-6 fw-bold"> School Portal </a>
-                <ul id="schoolPortalLink">
-                  <li><a href="/Staff/" class="fs-6 fw-bold">Staff</a></li>
-                  <li><a href="/Student/" class="fs-6 fw-bold">Student</a></li>
-                </ul>
-              </li>
-              <li><a href="#" class="fs-6 fw-bold"> E-learning </a></li>
-              <li><a href="#" class="fs-6 fw-bold"> Calender </a></li>
-              <li><a href="#" class="fs-6 fw-bold"> Special Programs </a></li>
-              <li><a href="#" class="fs-6 fw-bold"> PTA Corner's </a></li>
-              <li><a href="#" class="fs-6 fw-bold"> Student Spotlights </a></li>
-            </ul>
-          </li>
-          <li><a href="/Contact/" class="fs-6 fw-bold"> Contacts </a></li>
-        </ul>
-      </nav>
-
-      <svg
-        id="open"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-6 h-6"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-        />
-      </svg>
-
-      <svg
-        id="close"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-6 h-6"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M6 18 18 6M6 6l12 12"
-        />
-      </svg>
-    </header>
-
-    <main class="">
-      <div class="slideshow">
-        <div
-          id="carouselExampleCaptions"
-          class="carousel slide carousel-height"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="/images/DSC_0273.JPG"
-                class="d-block w-100 img-fluid"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="fs-1">First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="/images/DSC_0186.JPG" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="/images/DSC_0272.JPG" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
-              </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/DSC_0273.JPG" class="d-block w-100 img-fluid" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1">First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
             </div>
           </div>
-          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <div class="carousel-item">
+            <img src="/images/DSC_0186.JPG" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/DSC_0272.JPG" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
@@ -160,417 +113,257 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button> -->
-        </div>
       </div>
+    </div>
 
-      <section class="text-center bg-light">
-        <div class="py-5">
-          <div class="container">
-            <h2 class="fw-bold text-uppercase display-6 text-red">Welcome Address</h2>
-            <hr class="text-red hrthick noopacity"/>
-            <div class="py-5 row">
-              <div class="col-sm-12 col-lg-6">
-                <img
-                  src="/images/DSC_0245.JPG"
-                  alt=""
-                  class="img-thumbnail"
-                  srcset=""
-                />
-              </div>
-              <div class="col-sm-12 col-lg-6">
-                <div class="">
-                  <blockquote class="blockquote">
-                    <span class="fw-bold text-uppercase text-green">Dominion Havard Preparatory School</span> was
-                    established in ____ starting with Dominion Havard
-                    Preparatory Nursery and Primary School, Benin , Nigeria. Our
-                    Aim at Dominion Havard Preparatory School is to be widely
-                    acclaimed locally and internationally as a school that
-                    trains and turns out students who have been adequately
-                    prepared for tertiary education and life. Our Mission
-                    Statement is “To produce the total child through a holistic
-                    education programme that benchmarks best practices while
-                    being socially responsible.”
-                  </blockquote>
-                  <figcaption class="blockquote-footer text-end">
-                    Mrs Egharevba Aderonke Abimbola
-                    <p>Proprietress, Dominion Havard Preparatory Schools</p>
-                  </figcaption>
-                </div>
+    <section class="text-center bg-light">
+      <div class="py-5">
+        <div class="container">
+          <h2 class="fw-bold text-uppercase display-6 text-red">Welcome Address</h2>
+          <hr class="text-red hrthick noopacity" />
+          <div class="py-5 row">
+            <div class="col-sm-12 col-lg-6">
+              <img src="/images/DSC_0245.JPG" alt="" class="img-thumbnail" srcset="" />
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <div class="">
+                <blockquote class="blockquote">
+                  <span class="fw-bold text-uppercase text-green">Dominion Havard Preparatory School</span> was
+                  established in ____ starting with Dominion Havard
+                  Preparatory Nursery and Primary School, Benin , Nigeria. Our
+                  Aim at Dominion Havard Preparatory School is to be widely
+                  acclaimed locally and internationally as a school that
+                  trains and turns out students who have been adequately
+                  prepared for tertiary education and life. Our Mission
+                  Statement is “To produce the total child through a holistic
+                  education programme that benchmarks best practices while
+                  being socially responsible.”
+                </blockquote>
+                <figcaption class="blockquote-footer text-end">
+                  Mrs Egharevba Aderonke Abimbola
+                  <p>Proprietress, Dominion Havard Preparatory Schools</p>
+                </figcaption>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="py-5 gallery container">
-        <div class="galleryHeader">
-          <h2 class="fw-bold text-red text-uppercase">Gallery</h2>
+    <section class="py-5 gallery container">
+      <div class="galleryHeader">
+        <h2 class="fw-bold text-red text-uppercase">Gallery</h2>
+        <hr />
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 mb-4 mb-lg-0">
+          <img src="/images/DSC_0139.JPG" class="w-100 shadow-1-strong rounded mb-4 hover1s hover-shadow"
+            alt="Boat on Calm Water" />
+
+          <img src="/images/DSC_0234.JPG" class="w-100 shadow-1-strong rounded mb-4 hover1s"
+            alt="Wintry Mountain Landscape" />
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 mb-4 mb-lg-0">
+          <img src="/images/DSC_0275.JPG" class="w-100 shadow-1-strong rounded mb-4 hover1s"
+            alt="Mountains in the Clouds" />
+
+          <img src="/images/DSC_0240.JPG" class="w-100 shadow-1-strong rounded mb-4 hover1s" alt="Boat on Calm Water" />
+        </div>
+
+        <div class="d-none d-sm-block col-md-4 col-sm-6 mb-4 mb-lg-0">
+          <img src="/images/DSC_0148.JPG" class="w-100 shadow-1-strong rounded mb-4 hover1s" alt="Waves at Sea" />
+
+          <img src="/images/DSC_0270.JPG" class="w-100 shadow-1-strong rounded mb-4 hover1s"
+            alt="Yosemite National Park" />
+        </div>
+      </div>
+    </section>
+
+    <section class="Events py-5 background-green flex">
+      <h4 class="eventHeader py-5">Upcoming Events</h4>
+      <div class="eventWrapper py-5 grid-col-3">
+        <div class="eventspan">
+          <div class="eventDate flex">
+            <svg class="eventSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+            </svg>
+
+            <svg class="eventSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+
+            <svg class="eventSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+            </svg>
+          </div>
+
+          <div class="eventName flex">
+            <p>Old school Day</p>
+          </div>
+        </div>
+
+        <div class="eventspan">
+          <div class="eventDate flex">
+            <svg class="eventSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+            </svg>
+
+            <svg class="eventSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+
+            <svg class="eventSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+            </svg>
+          </div>
+
+          <div class="eventName flex">
+            <p>Spelling Bee Competition</p>
+          </div>
+        </div>
+
+        <div class="eventspan">
+          <div class="eventDate flex">
+            <svg class="eventSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+            </svg>
+
+            <svg class="eventSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+
+            <svg class="eventSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+            </svg>
+          </div>
+
+          <div class="eventName flex">
+            <p>Graduation Ceremony</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-warning">
+      <div class="title">call to action</div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footerSectionOne text-light">
+      <div class="aboutUs">
+        <div class="aboutUsHead">
+          <h2 class="fw-bold text-uppercase">About Us</h2>
           <hr />
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6 mb-4 mb-lg-0">
-            <img
-              src="/images/DSC_0139.JPG"
-              class="w-100 shadow-1-strong rounded mb-4 hover1s hover-shadow"
-              alt="Boat on Calm Water"
-            />
-        
-            <img
-              src="/images/DSC_0234.JPG"
-              class="w-100 shadow-1-strong rounded mb-4 hover1s"
-              alt="Wintry Mountain Landscape"
-            />
-          </div>
-        
-          <div class="col-lg-4 col-md-4 col-sm-6 mb-4 mb-lg-0">
-            <img
-              src="/images/DSC_0275.JPG"
-              class="w-100 shadow-1-strong rounded mb-4 hover1s"
-              alt="Mountains in the Clouds"
-            />
-        
-            <img
-              src="/images/DSC_0240.JPG"
-              class="w-100 shadow-1-strong rounded mb-4 hover1s"
-              alt="Boat on Calm Water"
-            />
-          </div>
-        
-          <div class="d-none d-sm-block col-md-4 col-sm-6 mb-4 mb-lg-0">
-            <img
-              src="/images/DSC_0148.JPG"
-              class="w-100 shadow-1-strong rounded mb-4 hover1s"
-              alt="Waves at Sea"
-            />
-        
-            <img
-              src="/images/DSC_0270.JPG"
-              class="w-100 shadow-1-strong rounded mb-4 hover1s"
-              alt="Yosemite National Park"
-            />
-          </div>
-        </div>       
-      </section>
 
-      <section class="Events py-5 background-green flex">
-        <h4 class="eventHeader py-5">Upcoming Events</h4>
-        <div class="eventWrapper py-5 grid-col-3">
-          <div class="eventspan">
-            <div class="eventDate flex">
-              <svg
-                class="eventSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
-                />
-              </svg>
-
-              <svg
-                class="eventSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                />
-              </svg>
-
-              <svg
-                class="eventSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                />
-              </svg>
-            </div>
-
-            <div class="eventName flex">
-              <p>Old school Day</p>
-            </div>
-          </div>
-
-          <div class="eventspan">
-            <div class="eventDate flex">
-              <svg
-                class="eventSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
-                />
-              </svg>
-
-              <svg
-                class="eventSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                />
-              </svg>
-
-              <svg
-                class="eventSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                />
-              </svg>
-            </div>
-
-            <div class="eventName flex">
-              <p>Spelling Bee Competition</p>
-            </div>
-          </div>
-
-          <div class="eventspan">
-            <div class="eventDate flex">
-              <svg
-                class="eventSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
-                />
-              </svg>
-
-              <svg
-                class="eventSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                />
-              </svg>
-
-              <svg
-                class="eventSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                />
-              </svg>
-            </div>
-
-            <div class="eventName flex">
-              <p>Graduation Ceremony</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section class="bg-warning">
-        <div class="title">call to action</div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footerSectionOne text-light">
-        <div class="aboutUs">
-          <div class="aboutUsHead">
-            <h2 class="fw-bold text-uppercase">About Us</h2>
-            <hr />
-          </div>
-
-          <div class="aboutUsContent">
-            <p class="force100">
-              The School believes in building a solid foundation for the child
-              and as such, we strive to turn out students with passion for
-              excellence and who have been adequately prepared for tertiary
-              education and life.
-            </p>
-          </div>
-        </div>
-
-        <div class="popularLinks">
-          <div class="popularLinksHead">
-            <h2 class="fw-bold text-uppercase">Popular Links</h2>
-            <hr />
-          </div>
-
-          <div class="popularLinksContent footerContent">
-            <a href=""> Academics </a>
-            <a href=""> Admission </a>
-            <a href="/About/"> About </a>
-            <a href=""> E-Learning </a>
-            <a href="/Contact/"> Contact </a>
-            <a href=""> FAQs </a>
-          </div>
-        </div>
-
-        <div class="contactUs">
-          <div class="contactUsHead">
-            <h2 class="fw-bold text-uppercase">Contact Us</h2>
-            <hr />
-          </div>
-
-          <div class="contactUsContent footerContent">
-            <div class="footerContactContent">
-              <svg
-                class="footerSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                />
-              </svg>
-
-              <p class="footerContactContentText">
-                1, 0sasewinhia Street, Off Obefe Avenue Off Ugbor Central Road,
-                Ugbor, Benin City.
-              </p>
-            </div>
-
-            <div class="footerContactContent">
-              <svg
-                class="footerSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
-                />
-              </svg>
-
-              <p class="footerContactContentText">+2348144184223</p>
-            </div>
-
-            <div class="footerContactContent">
-              <svg
-                class="footerSvg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-                />
-              </svg>
-
-              <p class="footerContactContentText">Ronke2431@gmail.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="footerSectionTwo">
-        <hr />
-        <div class="copyright">
-          <p>
-            Dominion Havard Preparatory Schools. Copyright © 2024 All Rights
-            Reserved. Designed by SmartLeaps Solutions.
+        <div class="aboutUsContent">
+          <p class="force100">
+            The School believes in building a solid foundation for the child
+            and as such, we strive to turn out students with passion for
+            excellence and who have been adequately prepared for tertiary
+            education and life.
           </p>
         </div>
       </div>
-    </footer>
-    <script src="/MDB5-STANDARD-UI-KIT-Free-7.2.0/js/mdb.umd.min.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
-    <script src="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js.map"></script>
-  </body>
+
+      <div class="popularLinks">
+        <div class="popularLinksHead">
+          <h2 class="fw-bold text-uppercase">Popular Links</h2>
+          <hr />
+        </div>
+
+        <div class="popularLinksContent footerContent">
+          <a href=""> Academics </a>
+          <a href=""> Admission </a>
+          <a href="/About/"> About </a>
+          <a href=""> E-Learning </a>
+          <a href="/Contact/"> Contact </a>
+          <a href=""> FAQs </a>
+        </div>
+      </div>
+
+      <div class="contactUs">
+        <div class="contactUsHead">
+          <h2 class="fw-bold text-uppercase">Contact Us</h2>
+          <hr />
+        </div>
+
+        <div class="contactUsContent footerContent">
+          <div class="footerContactContent">
+            <svg class="footerSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+            </svg>
+
+            <p class="footerContactContentText">
+              1, 0sasewinhia Street, Off Obefe Avenue Off Ugbor Central Road,
+              Ugbor, Benin City.
+            </p>
+          </div>
+
+          <div class="footerContactContent">
+            <svg class="footerSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+            </svg>
+
+            <p class="footerContactContentText">+2348144184223</p>
+          </div>
+
+          <div class="footerContactContent">
+            <svg class="footerSvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            </svg>
+
+            <p class="footerContactContentText">Ronke2431@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footerSectionTwo">
+      <hr />
+      <div class="copyright">
+        <p>
+          Dominion Havard Preparatory Schools. Copyright © 2024 All Rights
+          Reserved. Designed by SmartLeaps Solutions.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="/MDB5-STANDARD-UI-KIT-Free-7.2.0/js/mdb.umd.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+  <script src="/styles/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js.map"></script>
+</body>
+
 </html>
